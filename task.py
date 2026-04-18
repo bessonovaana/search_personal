@@ -11,14 +11,23 @@ def struct_data(files):
     print(f"\n{'='*65}")
     print(f"📊 Структурированные данные: {len(files)} файлов")
     print(f"{'='*65}")
-    
-    for idx, f_info in enumerate(files, start=1):
-        print(f"\n🔹 Файл #{idx}")
-        print(f"   Имя:        {f_info['name']}")
-        print(f"   Полный путь:{f_info['path']}")
-        print(f"   Расширение: {f_info['extension']}")
-        print(f"   Род. папка: {f_info['parent']}")
-        print("-" * 55)
+
+    count=0
+    for f_info in files:
+        count+=1
+        print(f"Файл #{count}")
+        print(f"Имя:         {f_info['name']}")
+        print(f"Полный путь: {f_info['path']}")
+        print(f"Расширение:  {f_info['extension']}")
+        print(f"Род. папка:  {f_info['parent']}\n")
+        if f_info['extension']=='.json':
+            data=pd.read_json(f_info['path'])
+        elif f_info['extension']=='.csv':
+            data=pd.read_csv(f_info['path'])
+        elif f_info['extension']=='.parquet':
+            data=pd.read_parquet(f_info['path'])
+        print(data)
+
     
 
 dirs = pathlib.Path('ПДнDataset/share')
