@@ -17,11 +17,10 @@ files_by_type = {
 }
 
 for category, extensions in files_by_type.items():
-    print(f"\n{category} ({', '.join(extensions)}):")
-    found = False
+    total_size = 0
+    count = 0
     for f in dirs.rglob('*'):
         if f.is_file() and f.suffix.lower() in extensions:
-            print(f"  - {f.name} (размер: {f.stat().st_size} байт)")
-            found = True
-    if not found:
-        print(f"  (нет файлов)")
+            count += 1
+            total_size += f.stat().st_size
+    print(f"{category}: {count} файлов, общий размер {total_size}")
