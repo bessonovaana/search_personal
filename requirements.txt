@@ -1,0 +1,4 @@
+docx
+fitz
+striprtf
+pyxtxt
