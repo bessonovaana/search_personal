@@ -1,4 +1,8 @@
-docx
-fitz
-striprtf
-pyxtxt
+pandas
+pdfplumber
+python-docx
+beautifulsoup4
+lxml
+pytesseract
+Pillow
+openpyxl

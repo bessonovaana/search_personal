@@ -1,254 +1,188 @@
-import pathlib
-from collections import defaultdict
 import os
-import pathlib
-from typing import Dict, List, Optional, Any
-from docx import Document  # pip install python-docx
+import re
+import csv
+import json
+import argparse
+from pathlib import Path
+from collections import defaultdict
+from typing import Dict, List
+import pandas as pd
+import pdfplumber
+from docx import Document
+from bs4 import BeautifulSoup
+from PIL import Image
+import pytesseract
+
+SUPPORTED_EXTENSIONS = {
+    ".csv", ".json", ".parquet", ".pdf", ".doc", ".docx", ".rtf", ".xls", ".xlsx",
+    ".html",  ".tif", ".tiff", ".jpeg", ".jpg", ".png", ".gif", ".mp4"
+}
 
 
-import fitz  # PyMuPDF - pip install PyMuPDF
-
-from striprtf.striprtf import rtf_to_text  # pip install striprtf
-
-import pandas as pd  # pip install pandas openpyxl
-from pyxtxt import xtxt  # pip install pyxtxt[all]
+THRESHOLD_LARGE = 100
 
 
-def extract_text_from_document(file_path: pathlib.Path) -> Dict[str, Any]:
-    """
-    Извлекает текст из документа в зависимости от его расширения.
+PD_PATTERNS = {
+    "standard_fio": re.compile(r'\b[А-ЯЁ][а-яё]{2,}\s+[А-ЯЁ][а-яё]{2,}\s+[А-ЯЁ][а-яё]{2,}\b'),
+    "standard_phone": re.compile(r'(?:\+7|8)[\s\-]?\(?\d{3}\)?[\s\-]?\d{3}[\s\-]?\d{2}[\s\-]?\d{2}'),
+    "standard_email": re.compile(r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'),
+    "standard_dob": re.compile(r'\b(?:0[1-9]|[12][0-9]|3[01])[./-](?:0[1-9]|1[0-2])[./-](?:19|20)\d{2}\b'),
+    "standard_address": re.compile(r'(?:г\.|город|ул\.|улица|пр\.|проспект|д\.|дом|кв\.|квартира)\s+[А-ЯЁа-яё0-9\s\.\-]+', re.IGNORECASE),
     
-    Поддерживаемые форматы:
-    - PDF (.pdf)
-    - Word (.docx)
-    - Rich Text Format (.rtf)
-    - Excel (.xlsx, .xls)
-    - Текстовые файлы (.txt)
+    "state_passport": re.compile(r'\b\d{4}\s?\d{6}\b'),
+    "state_snils": re.compile(r'\b\d{3}[\s\-]?\d{3}[\s\-]?\d{3}[\s\-]?\d{2}\b'),
+    "state_inn": re.compile(r'\b\d{10}\b|\b\d{12}\b'),
+    "state_driver_license": re.compile(r'\b\d{2}\s?[A-ZА-ЯЁ]{2}\s?\d{6}\b'),
     
-    Args:
-        file_path: Path объект с путем к файлу
+    "payment_card": re.compile(r'\b\d{16}\b'),
+    "payment_account": re.compile(r'\b\d{20}\b'),
+    "payment_bik": re.compile(r'\b04\d{7}\b'),
+    "payment_cvv": re.compile(r'\b\d{3}\b'), 
     
-    Returns:
-        Словарь с ключами:
-        - 'success': bool - успешно ли извлечение
-        - 'text': str - извлеченный текст
-        - 'error': str - сообщение об ошибке 
-        - 'metadata': dict - метаинформация о файле
-    """
-    
-    result = {
-        'success': False,
-        'text': '',
-        'error': None,
-        'metadata': {
-            'filename': file_path.name,
-            'extension': file_path.suffix.lower(),
-            'size_bytes': file_path.stat().st_size if file_path.exists() else 0
-        }
-    }
-    
-    if not file_path.exists():
-        result['error'] = f"File not found: {file_path}"
-        return result
-    
-    ext = file_path.suffix.lower()
-    
-    try:
-        if ext == '.pdf':
-            text = _extract_from_pdf(file_path)
-        elif ext == '.docx':
-            text = _extract_from_docx(file_path)
-        elif ext == '.rtf':
-            text = _extract_from_rtf(file_path)
-        elif ext in ['.xlsx', '.xls']:
-            text = _extract_from_excel(file_path)
-        elif ext == '.txt':
-            text = _extract_from_txt(file_path)
-        else:
-           
-                text = xtxt(str(file_path))
-           
-                return result
-        
-        result['success'] = True
-        result['text'] = text
-        result['metadata']['char_count'] = len(text)
-        
-    except Exception as e:
-        result['error'] = str(e)
-    
-    return result
+    "biometric": re.compile(r'(?:отпечаток|палец|радужная оболочка|сетчатка|голосовой образ|биометрия|распознавание лица)', re.IGNORECASE),
+    "special_health": re.compile(r'(?:диагноз|заболевание|анализ|рентген|мрт|группа крови|инвалидность)', re.IGNORECASE),
+    "special_religion": re.compile(r'(?:вероисповедание|религиозные убеждения|церковь|мечеть|синагога)', re.IGNORECASE),
+    "special_race": re.compile(r'(?:национальность|расовая принадлежность|этническое происхождение)', re.IGNORECASE),
+}
 
 
-def _extract_from_pdf(file_path: pathlib.Path) -> str:
-    """Извлечение текста из PDF"""
-    
-    text_parts = []
-    doc = fitz.open(str(file_path))
-    
-    for page_num in range(len(doc)):
-        page = doc.load_page(page_num)
-        text_parts.append(page.get_text())
-    
-    doc.close()
-    return '\n'.join(text_parts)
+CATEGORY_GROUPS = {
+    "special": {"special_health", "special_religion", "special_race"},
+    "biometric": {"biometric"},
+    "payment": {"payment_card", "payment_account", "payment_bik", "payment_cvv"},
+    "state": {"state_passport", "state_snils", "state_inn", "state_driver_license"},
+    "standard": {"standard_fio", "standard_phone", "standard_email", "standard_dob", "standard_address"}
+}
 
 
-def _extract_from_docx(file_path: pathlib.Path) -> str:
-    """Извлечение текста из DOCX с сохранением структуры"""
-    doc = Document(str(file_path))
-    text_parts = []
-    
-    # Извлечение текста из параграфов
-    for para in doc.paragraphs:
-        if para.text.strip():
-            text_parts.append(para.text)
-    
-    # Извлечение текста из таблиц
-    for table in doc.tables:
-        for row in table.rows:
-            row_text = ' | '.join([cell.text for cell in row.cells if cell.text.strip()])
-            if row_text:
-                text_parts.append(f"[TABLE] {row_text}")
-    
-    return '\n'.join(text_parts)
+def luhn_check(card: str) -> bool:
+    """Проверка номера банковской карты алгоритмом Луна."""
+    nums = [int(d) for d in card if d.isdigit()]
+    if len(nums) != 16: return False
+    total = sum(nums[::-1][i] * 2 if i % 2 else nums[::-1][i] for i in range(16))
+    total -= sum(9 for x in nums[::-1] if x * 2 > 9)
+    return total % 10 == 0
 
-
-def _extract_from_rtf(file_path: pathlib.Path) -> str:
-    """Извлечение текста из RTF[citation:5]"""
-  
-    with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
-        rtf_content = f.read()
-    
-    return rtf_to_text(rtf_content)
-
-
-def _extract_from_excel(file_path: pathlib.Path) -> str:
-    """Извлечение текста из Excel с помощью pandas[citation:4]"""
+def mask_value(val: str) -> str:
    
-    # Чтение всех листов Excel
-    excel_file = pd.ExcelFile(str(file_path))
-    text_parts = []
-    
-    for sheet_name in excel_file.sheet_names:
-        df = pd.read_excel(file_path, sheet_name=sheet_name, dtype=str)
-        
-        # Пропускаем пустые DataFrame
-        if df.empty:
-            continue
-        
-        # Добавляем заголовок листа
-        text_parts.append(f"\n[Sheet: {sheet_name}]")
-        
-        # Конвертируем DataFrame в текст
-        # Заменяем NaN на пустые строки
-        df = df.fillna('')
-        
-        # Добавляем заголовки колонок
-        headers = ' | '.join([str(col) for col in df.columns if str(col).strip()])
-        if headers:
-            text_parts.append(f"Columns: {headers}")
-        
-        # Добавляем строки данных
-        for idx, row in df.iterrows():
-            row_values = [str(val).strip() for val in row if str(val).strip()]
-            if row_values:
-                text_parts.append(' | '.join(row_values))
-    
-    return '\n'.join(text_parts)
+    if len(val) <= 4: return "***"
+    return val[:2] + "*" * (len(val) - 4) + val[-2:]
 
 
-def _extract_from_txt(file_path: pathlib.Path) -> str:
-    """Извлечение текста из обычного текстового файла"""
-    encodings = ['utf-8', 'cp1251', 'latin-1', 'koi8-r']
-    
-    for encoding in encodings:
-        try:
-            with open(file_path, 'r', encoding=encoding) as f:
-                return f.read()
-        except UnicodeDecodeError:
-            continue
-    
-    # Если ничего не сработало, читаем с ignore ошибок
-    with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
-        return f.read()
-
-def process_document_category(files_list: List[Dict]) -> Dict[str, Any]:
-    """
-    Обрабатывает все документы в категории и извлекает из них текст.
-    
-    Args:
-        files_list: Список словарей с информацией о файлах (из categorized_files['Документы'])
-    
-    Returns:
-        Словарь с результатами обработки
-    """
-    
-    results = {
-        'processed': [],
-        'failed': [],
-        'statistics': {
-            'total': len(files_list),
-            'successful': 0,
-            'failed_count': 0,
-            'total_chars': 0,
-            'total_size_mb': 0
-        }
-    }
-    
-    for file_info in files_list:
-        file_path = file_info['path']
-        
-        print(f"Обработка: {file_info['name']}...")
-        
-        extraction_result = extract_text_from_document(file_path)
-        
-        if extraction_result['success']:
-            results['processed'].append({
-                'filename': file_info['name'],
-                'text': extraction_result['text'],
-                'char_count': extraction_result['metadata']['char_count'],
-                'size_mb': file_info['size'] / (1024 * 1024),
-                'extension': file_info['extension']
-            })
-            results['statistics']['successful'] += 1
-            results['statistics']['total_chars'] += extraction_result['metadata']['char_count']
+def extract_text(file_path: Path) -> str:
+    ext = file_path.suffix.lower()
+    try:
+        if ext in {".csv", ".json", ".parquet"}:
+            df = pd.read_csv(file_path) if ext == ".csv" else (pd.read_json(file_path) if ext == ".json" else pd.read_parquet(file_path))
+            return df.astype(str).to_csv(index=False, header=False)
+        elif ext in {".pdf"}:
+            with pdfplumber.open(file_path) as pdf:
+                return "\n".join(page.extract_text() or "" for page in pdf.pages)
+        elif ext in {".docx"}:
+            doc = Document(file_path)
+            return "\n".join(p.text for p in doc.paragraphs)
+        elif ext in {".xls", ".xlsx"}:
+            df = pd.read_excel(file_path)
+            return df.astype(str).to_csv(index=False, header=False)
+        elif ext in {".html"}:
+            with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
+                soup = BeautifulSoup(f.read(), "html.parser")
+                return soup.get_text(separator=" ", strip=True)
+        elif ext in {".tif", ".tiff", ".jpeg", ".jpg", ".png", ".gif"}:
+            img = Image.open(file_path)
+            return pytesseract.image_to_string(img, lang="rus+eng")
+        elif ext in {".mp4"}:
+            return "[АУДИО/ВИДЕО КОНТЕНТ] Требуется отдельная транскрибация"
         else:
-            results['failed'].append({
-                'filename': file_info['name'],
-                'error': extraction_result['error'],
-                'extension': file_info['extension']
-            })
-            results['statistics']['failed_count'] += 1
-        
-        results['statistics']['total_size_mb'] += file_info['size'] / (1024 * 1024)
-    
-    return results
+            with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
+                return f.read()
+    except Exception as e:
+        return f"[ОШИБКА ЧТЕНИЯ] {str(e)}"
 
 
-def save_extracted_texts(results: Dict[str, Any], output_dir: str = 'extracted_texts'):
-    """
-    Сохраняет извлеченные тексты в отдельные файлы.
-    """
-    import os
-    os.makedirs(output_dir, exist_ok=True)
+def detect_pd(text: str) -> Dict[str, int]:
+    """Возвращает количество найденных ПДн по категориям."""
+    counts = defaultdict(int)
+    for cat, pattern in PD_PATTERNS.items():
+        matches = pattern.findall(text)
+        if cat == "payment_card":
+            matches = [m for m in matches if luhn_check(m)]
+        counts[cat] = len(matches)
+    return dict(counts)
+
+def classify_uz(categories: Dict[str, int]) -> str:
+    has_special = any(c in CATEGORY_GROUPS["special"] for c, v in categories.items() if v > 0)
+    has_biometric = any(c in CATEGORY_GROUPS["biometric"] for c, v in categories.items() if v > 0)
+    has_payment = any(c in CATEGORY_GROUPS["payment"] for c, v in categories.items() if v > 0)
+    has_state = any(c in CATEGORY_GROUPS["state"] for c, v in categories.items() if v > 0)
+    has_standard = any(c in CATEGORY_GROUPS["standard"] for c, v in categories.items() if v > 0)
+
+    state_total = sum(v for c, v in categories.items() if c in CATEGORY_GROUPS["state"])
+    standard_total = sum(v for c, v in categories.items() if c in CATEGORY_GROUPS["standard"])
+
+    is_state_large = state_total > THRESHOLD_LARGE
+    is_standard_large = standard_total > THRESHOLD_LARGE
+
+    if has_special or has_biometric: return "УЗ-1"
+    if has_payment or (has_state and is_state_large): return "УЗ-2"
+    if (has_state and not is_state_large) or (has_standard and is_standard_large): return "УЗ-3"
+    return "УЗ-4"
+
+
+
+def generate_report(results: List[Dict], fmt: str, out_path: Path):
+    if not results:
+        print("Файлы с ПДн не найдены.")
+        return
+
+    if fmt == "csv":
+        with open(out_path, "w", encoding="utf-8", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(["Путь", "Категории ПДн", "Количество", "УЗ", "Формат", "Рекомендации"])
+            for r in results:
+                cats = ", ".join([f"{k}: {v}" for k, v in r["categories"].items() if v > 0])
+                rec = "Шифрование + RBAC" if r["uz"] in ["УЗ-1", "УЗ-2"] else "Контроль доступа + аудит"
+                writer.writerow([r["path"], cats, sum(r["categories"].values()), r["uz"], r["ext"], rec])
+    print(f"Отчет сохранен: {out_path}")
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Сканер ПДн для корпоративных хранилищ")
+    parser.add_argument("input_dir", type=Path, help="Путь к директории для сканирования")
+    parser.add_argument("-o", "--output", type=Path, default="pd_report.csv", help="Путь к файлу отчета")
+    parser.add_argument("-f", "--format", choices=["csv", "json", "md"], default="csv", help="Формат отчета")
+    parser.add_argument("-t", "--threshold", type=int, default=100, help="Порог 'большого объема' для УЗ")
+    args = parser.parse_args()
+
+    global THRESHOLD_LARGE
+    THRESHOLD_LARGE = args.threshold
+
+    results = []
+    print(f"Сканирование директории: {args.input_dir.resolve()}")
     
-    for item in results['processed']:
-        # Создаем безопасное имя файла
-        safe_name = item['filename'].replace('/', '_').replace('\\', '_')
-        output_path = os.path.join(output_dir, f"{safe_name}.txt")
-        
-        with open(output_path, 'w', encoding='utf-8') as f:
-            f.write(f"Source: {item['filename']}\n")
-            f.write(f"Characters: {item['char_count']}\n")
-            f.write(f"Size: {item['size_mb']:.2f} MB\n")
-            f.write(item['text'])
-        
-        print(f"Сохранен: {output_path}")
-    
-    # Сохраняем отчет об ошибках
-    if results['failed']:
-        error_path = os.path.join(output_dir, 'failed_files.txt')
-        with open(error_path, 'w', encoding='utf-8') as f:
-            for item in results['failed']:
-                f.write(f"{item['filename']}: {item['error']}\n")
+    for file_path in args.input_dir.rglob("*"):
+        if not file_path.is_file() or file_path.suffix.lower() not in SUPPORTED_EXTENSIONS:
+            continue
+            
+        print(f"Обработка: {file_path.name}")
+        text = extract_text(file_path)
+        if "[ОШИБКА ЧТЕНИЯ]" in text:
+            continue
+            
+        categories = detect_pd(text)
+        if sum(categories.values()) == 0:
+            continue
+            
+        uz = classify_uz(categories)
+        results.append({
+            "path": str(file_path.relative_to(args.input_dir)),
+            "categories": {k: v for k, v in categories.items() if v > 0},
+            "uz": uz,
+            "ext": file_path.suffix.lower()
+        })
+
+    generate_report(results, args.format, args.output)
+    print(f"Итого файлов с ПДн: {len(results)}")
+
+if __name__ == "__main__":
+    main()

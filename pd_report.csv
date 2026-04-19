@@ -1,0 +1,1186 @@
+Путь,Категории ПДн,Количество,УЗ,Формат,Рекомендации
+Документы партнеров\agreement_reg.pdf,"standard_fio: 2, standard_email: 1, standard_address: 4",7,УЗ-4,.pdf,Контроль доступа + аудит
+Документы партнеров\agreement_reg_extra.pdf,"standard_email: 1, standard_address: 7, payment_cvv: 1",9,УЗ-2,.pdf,Шифрование + RBAC
+Документы партнеров\capsula_instruction.pdf,"standard_phone: 1, standard_address: 1, payment_cvv: 10",12,УЗ-2,.pdf,Шифрование + RBAC
+Документы партнеров\capsula_neo_instruction.pdf,"standard_fio: 2, standard_phone: 1, standard_address: 3, payment_cvv: 3",9,УЗ-2,.pdf,Шифрование + RBAC
+Документы партнеров\google_privacy_policy_en.pdf,payment_cvv: 5,5,УЗ-2,.pdf,Шифрование + RBAC
+Документы партнеров\google_terms_of_service_en.pdf,payment_cvv: 2,2,УЗ-2,.pdf,Шифрование + RBAC
+Документы партнеров\ok_history_new.pdf,"standard_address: 3, payment_cvv: 10",13,УЗ-2,.pdf,Шифрование + RBAC
+Документы партнеров\politika_konfidencialnosti.pdf,"standard_fio: 2, standard_address: 3, state_passport: 1, state_inn: 1, payment_cvv: 2",9,УЗ-2,.pdf,Шифрование + RBAC
+Документы партнеров\rules.pdf,"standard_fio: 48, standard_phone: 1, standard_email: 4, standard_dob: 1, standard_address: 11, state_passport: 1, state_inn: 1, payment_cvv: 4, special_health: 1",72,УЗ-1,.pdf,Шифрование + RBAC
+Документы партнеров\Sport24_Mediakit_2024.pdf,"standard_fio: 11, standard_email: 1, standard_address: 1, payment_cvv: 9, special_health: 1",23,УЗ-1,.pdf,Шифрование + RBAC
+Документы партнеров\version-090924.pdf,"standard_fio: 3, standard_phone: 2, standard_email: 2, standard_dob: 2, standard_address: 6, state_passport: 9, state_inn: 9, payment_cvv: 3, special_health: 1",37,УЗ-1,.pdf,Шифрование + RBAC
+Документы партнеров\version-300824.pdf,"standard_fio: 1, standard_email: 2, standard_address: 10",13,УЗ-4,.pdf,Контроль доступа + аудит
+Документы партнеров\VKCT_Soglashenie_ob_informacionnom_vzaimodeistvii.pdf,"standard_address: 2, payment_cvv: 1",3,УЗ-2,.pdf,Шифрование + RBAC
+Документы партнеров\VK_Soglashenie_ob_informacionnom_vzaimodeistvii.pdf,"standard_address: 2, payment_cvv: 1",3,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%20%D1%81%D0%BE%D0%B3%D0%BB%D0%B0%D1%88%D0%B5%D0%BD%D0%B8%D0%B5.pdf,"standard_email: 2, standard_dob: 1, standard_address: 4, payment_cvv: 1",8,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%90%D0%BD%D0%BD%D0%BE%D1%82%D0%B0%D1%86%D0%B8%D1%8F%20%D0%90%D0%9F%D0%A6%D0%9F%D0%B8%D0%A6%D0%AD.pdf,"standard_email: 2, payment_cvv: 6",8,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%90%D1%80%D1%82%D0%B5%D0%BC%20%D0%A8%D0%B0%D0%B4%D1%80%D0%B8%D0%BD.pdf,"standard_fio: 3, standard_address: 8, special_health: 3",14,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\%D0%91%D1%83%D1%85%D0%B3%D0%B0%D0%BB%D1%82%D0%B5%D1%80.pdf,"standard_address: 2, payment_cvv: 1, special_health: 1",4,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\%D0%94%D0%BB%D1%8F%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20%D0%A1%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D0%B9%20%D0%B1%D0%B0%D0%BB%D0%BB%20%D0%B8%20%D0%95%D0%93%D0%AD%202021_22.pdf,"standard_fio: 2, payment_cvv: 28",30,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F_%D0%9C%D0%A4%D0%A6.pdf,"standard_phone: 3, payment_cvv: 6",9,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%9C%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F_%D0%9D%D0%90%D0%9C_%D0%B2%D0%B5%D1%81%D0%BD%D0%B0_2022.pdf,"standard_dob: 21, standard_address: 13, state_passport: 1, state_inn: 1, payment_cvv: 12",48,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D1%8B_%D0%B2%D0%BE%D1%81%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F.pdf,"standard_fio: 1, standard_address: 34, payment_cvv: 27",62,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%9E%D1%82%D1%87%D0%B5%D1%82%20%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B5.docx,standard_address: 3,3,УЗ-4,.docx,Контроль доступа + аудит
+Прочее\%D0%9F%D0%90%D0%9C%D0%AF%D0%A2%D0%9A%D0%90%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D1%80%D0%B8%D0%B5%D0%B7%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D1%85%202025.pdf,"standard_phone: 4, standard_email: 4, standard_dob: 2, standard_address: 27, payment_cvv: 16, special_health: 1",54,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\%D0%9F%D0%9F_2025_19.01.2025_%D0%B8%D1%82%D0%BE%D0%B31.pdf,"standard_fio: 50, standard_phone: 16, standard_email: 5, standard_dob: 4, standard_address: 15, payment_cvv: 192, special_health: 17",299,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\%D0%9F%D0%A0%D0%9E%D0%93%D0%A0%D0%90%D0%9C%D0%9C%D0%90%20%D0%9C%D0%9D%D0%9F%D0%9A%20.pdf,"standard_fio: 182, standard_phone: 1, standard_email: 1, standard_address: 195, payment_cvv: 4, special_health: 5",388,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\%D0%9F%D0%A3%D0%91%D0%9B%D0%98%D0%A7%D0%9D%D0%AB%D0%99%20%D0%9E%D0%A2%D0%A7%D0%81%D0%A2%20%D0%A2%D0%9A%20%D0%AE%D0%A4%D0%A3%202020_0.pdf,"standard_fio: 10, standard_phone: 4, standard_email: 1, standard_dob: 8, standard_address: 10, state_snils: 1, state_inn: 1, payment_cvv: 42",77,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%9F%D0%A4%D0%A5%D0%94%202022%20%20%20%D0%B8%D0%B7%D0%BC%2001%20%D1%81%20%D0%BE%D1%82%D1%82%D0%B8%D1%81%D0%BA%D0%BE%D0%BC.pdf,"standard_phone: 1, standard_dob: 2, standard_address: 10, state_passport: 1, state_snils: 1, state_inn: 1, payment_cvv: 443",459,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%9F%D0%A4%D0%A5%D0%94%202022%20%20%20%D0%B8%D0%B7%D0%BC%2002%20%D1%81%20%D0%BE%D1%82%D1%82%D0%B8%D1%81%D0%BA%D0%BE%D0%BC.pdf,"standard_phone: 1, standard_dob: 2, standard_address: 10, state_passport: 1, state_snils: 1, state_inn: 1, payment_cvv: 462",478,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%9F%D0%A4%D0%A5%D0%94%202022%20%20%20%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9%20%D1%81%20%D0%BE%D1%82%D1%82%D0%B8%D1%81%D0%BA%D0%BE%D0%BC.pdf,"standard_phone: 1, standard_dob: 2, standard_address: 10, state_passport: 1, state_snils: 1, state_inn: 1, payment_cvv: 439",455,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%9F%D0%A4%D0%A5%D0%94%202023%20%20%20%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9%20%D1%81%20%D0%BE%D1%82%D1%82%D0%B8%D1%81%D0%BA%D0%BE%D0%BC.pdf,"standard_fio: 1, standard_phone: 1, standard_dob: 4, standard_address: 8, state_passport: 1, state_snils: 1, state_inn: 1, payment_cvv: 457",474,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%9F%D1%80%D0%B8%D0%BA%D0%B0%D0%B7%20N906.pdf,payment_cvv: 9,9,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%201.pdf,payment_cvv: 5,5,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B9%20%D0%BE%D1%82%D1%87%D1%91%D1%82%20%D0%A2%D0%9A%20%D0%AE%D0%A4%D0%A3.pdf,"standard_fio: 54, standard_dob: 6, standard_address: 1, payment_cvv: 196, special_health: 2",259,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B9%20%D0%BE%D1%82%D1%87%D1%91%D1%82%202021.pdf,"standard_fio: 48, standard_dob: 8, standard_address: 2, state_snils: 2, payment_cvv: 178, special_health: 2",240,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B9%20%D0%BE%D1%82%D1%87%D1%91%D1%82%202023.pdf,"standard_fio: 2, standard_dob: 1, standard_address: 3, payment_cvv: 18",24,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B9_%D0%BE%D1%82%D1%87%D1%91%D1%82_%D0%A2%D0%9A_%D0%AE%D0%A4%D0%A3_2024.pdf,"standard_fio: 44, standard_dob: 8, standard_address: 2, state_passport: 1, state_snils: 1, payment_cvv: 308, special_health: 7",371,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\%D0%9F112-%D0%9E%D0%94_%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%20%D0%B2%D0%BE%D1%81%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F.pdf,"standard_fio: 15, standard_dob: 14, standard_address: 8, payment_cvv: 10, special_health: 3",50,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\%D0%9F15_%D0%9C%D0%A3%D0%90%D0%9C_%D0%A6%D0%9A.pdf,standard_address: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\%D0%9F1620_%D0%9F%D0%BB%D0%B0%D0%BD%20%D0%92%D0%A0%20%D0%BD%D0%B0%202021-2022%20%D1%83%D1%87.%D0%B3%D0%BE%D0%B4.pdf,"standard_fio: 320, standard_dob: 433, standard_address: 16, payment_cvv: 342, special_health: 1",1112,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\%D0%9F1631_%D0%9E%D0%9F%20%D0%B8%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%20%D0%B2%D0%BE%D1%81%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F.pdf,"standard_dob: 3, standard_address: 1, payment_cvv: 2",6,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%9F320-%D0%9E%D0%94_%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5_%D0%AE%D0%A4%D0%A3.pdf,"standard_fio: 6, standard_dob: 1, standard_address: 5",12,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\%D0%9F336-%D0%9E%D0%94_05.12.2022_%20%D0%A1%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%AE%D0%A4%D0%A3_10.05.04.pdf,"payment_cvv: 4, special_health: 2",6,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\%D0%A0%D0%90%D0%A1%D0%9F1035-%D1%80%20HR.pdf,"standard_fio: 1, standard_address: 1",2,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\%D0%A0%D0%90%D0%A1_127-%D1%80%20%D0%90%D1%81%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D1%86%D0%B8%D1%8F.pdf,"standard_fio: 1, standard_address: 4, payment_cvv: 3",8,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%A0%D0%90%D0%A1_128-%D0%A0%20%D0%97%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5%20%D0%A8%D0%9C%D0%91%203.0.pdf,"standard_fio: 14, standard_address: 3, payment_cvv: 1",18,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%A0%D0%90%D0%A1_1338-%D0%A0%20%D0%9A%D1%80%20%D1%81%D1%82%D0%BE%D0%BB%20%D0%94%D0%9D%D0%9A.pdf,"standard_fio: 9, standard_address: 1, payment_cvv: 1",11,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%A0%D0%90%D0%A1_142-%D1%80%20(1).pdf,"standard_address: 1, payment_cvv: 1",2,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%A0%D0%90%D0%A1_143-%D1%80.pdf,"standard_fio: 1, standard_dob: 1, standard_address: 1, payment_cvv: 4",7,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%A0%D0%90%D0%A1_146-%D1%80.pdf,"standard_fio: 3, standard_email: 1, standard_address: 10, payment_cvv: 13, special_health: 4",31,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\%D0%A0%D0%90%D0%A1_152-%D1%80.pdf,"standard_address: 1, payment_cvv: 1",2,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%A0%D0%90%D0%A1_153-%D0%A0.pdf,"standard_fio: 1, standard_address: 3, payment_cvv: 2",6,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%A0%D0%90%D0%A1_1532-%D1%80.pdf,"standard_dob: 1, standard_address: 2",3,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\%D0%A0%D0%90%D0%A1_263-%D1%80%2015.03.pdf,"standard_address: 3, payment_cvv: 1",4,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%A0%D0%90%D0%A1_264-%D1%80%20HR%20%D0%BA%D0%BB%D1%83%D0%B1%2014.03.pdf,"standard_address: 4, payment_cvv: 1",5,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%A0%D0%90%D0%A1_303-%D1%80.pdf,"standard_dob: 3, standard_address: 2, payment_cvv: 1",6,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%A0%D0%90%D0%A1_419-%D1%80%20%D0%B4%D0%B5%D0%BD%D1%8C%20%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA%D0%BD%D0%B8%D0%BA%D0%B0.pdf,"standard_fio: 22, standard_email: 1, standard_address: 1, payment_cvv: 1",25,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%A0%D0%90%D0%A1_546-%D1%80.pdf,"standard_address: 4, payment_cvv: 2",6,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%A0%D0%90%D0%A1_669-%D1%80.pdf,"standard_address: 1, payment_cvv: 1",2,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%A0%D0%90%D0%A1_715-%D1%80%20HR.pdf,"standard_fio: 1, standard_address: 1, payment_cvv: 1",3,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%A0%D0%90%D0%A1_766-%D1%80.pdf,"standard_address: 3, payment_cvv: 3",6,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%A0%D0%90%D0%A1_95-%D1%80%20%D0%9F%D1%80%D0%B5%D1%81%D1%82%D0%B8%D0%B6%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BE%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9.pdf,"standard_fio: 6, standard_address: 3, payment_cvv: 2",11,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%A0%D0%9F%D0%94%20%D0%B8%20%D0%9A%D0%9F%2015.02.10%20(2).pdf,"standard_fio: 17, standard_dob: 26, standard_address: 16, payment_cvv: 18, special_health: 10",87,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\%D0%A0384.pdf,"standard_dob: 1, standard_address: 3, payment_cvv: 1",5,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%A0386.%20%D0%A7%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%20%D0%B2%20%D0%BC%D0%B8%D1%80%D0%B5%20%D0%98%D0%98.pdf,"standard_fio: 12, standard_address: 1, payment_cvv: 1",14,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%A0502%20%D0%A4%D1%80%D0%BE%D0%BD%D1%82%D0%B8%D1%80%D1%8B%20%D0%BA%D0%B0%D1%80%D1%8C%D0%B5%D1%80%D1%8B.pdf,"standard_fio: 24, standard_dob: 1, standard_address: 3, payment_cvv: 3",31,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%A0545_0.pdf,"standard_address: 6, payment_cvv: 1",7,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%A0613%20%D0%BF%D0%B0%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B0%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B5%D1%82%D0%B5%D0%BD%D1%86%D0%B8%D0%B9.pdf,"standard_fio: 3, standard_address: 1, payment_cvv: 3",7,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%A0764.pdf,"standard_dob: 1, standard_address: 3, payment_cvv: 1",5,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%A0953.pdf,"standard_address: 6, payment_cvv: 3",9,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D1%81%D1%84%D0%B5%D1%80%D0%BD%D0%B0%D1%8F-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C.pdf,"standard_dob: 1, payment_cvv: 1, special_health: 1",3,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\%D0%B4%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80_%D0%B8%D1%8E%D0%BB%D1%8C.docx,"standard_dob: 2, standard_address: 5, payment_cvv: 6",13,УЗ-2,.docx,Шифрование + RBAC
+Прочее\%D0%B7%D0%B0%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D1%83.docx,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.docx,Шифрование + RBAC
+Прочее\%D0%B7%D0%B0%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.docx,"standard_dob: 1, standard_address: 2, payment_cvv: 3",6,УЗ-2,.docx,Шифрование + RBAC
+Прочее\01.04.00.pdf,"standard_fio: 2, standard_address: 8, payment_cvv: 23, special_health: 3",36,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\01.04.02.pdf,"standard_address: 6, payment_cvv: 9, special_health: 3",18,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\02.04.02.pdf,"standard_fio: 3, standard_address: 5, payment_cvv: 59, special_health: 3",70,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\02.04.02_rob.pdf,"standard_fio: 2, standard_address: 8, special_health: 6",16,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\03-5-01-005.pdf,"standard_fio: 422, standard_dob: 1, standard_address: 2289, state_passport: 1, state_inn: 1, payment_cvv: 759, biometric: 17, special_health: 630, special_race: 1",4121,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\03.04.02.pdf,"standard_fio: 6, standard_address: 13, payment_cvv: 4",23,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\03.04.03.pdf,"standard_fio: 1, standard_address: 6",7,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\030302_B_3_31082020.pdf,"standard_fio: 4, standard_address: 4, payment_cvv: 27, special_health: 1",36,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\030303_B_3_31082020.pdf,"standard_fio: 4, standard_address: 5, payment_cvv: 28, special_health: 2",39,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\04.04.01.pdf,"standard_address: 4, payment_cvv: 2, special_health: 11",17,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\050301_B_3_23082020.pdf,"standard_fio: 4, standard_address: 4, payment_cvv: 24, special_health: 2",34,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\050302_B_3_23082020.pdf,"standard_fio: 4, standard_address: 4, payment_cvv: 35, special_health: 3",46,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\050304_B_3_31082020.pdf,"standard_fio: 4, standard_address: 4, payment_cvv: 27, special_health: 2",37,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\06.04.01.pdf,"standard_fio: 2, standard_address: 2, payment_cvv: 2, special_health: 5",11,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\06.04.02.pdf,"standard_address: 3, special_health: 1",4,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\060302_B_3_23082020.pdf,"standard_fio: 4, standard_address: 6, payment_cvv: 35, special_health: 3",48,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\06_gorgorova.pdf,"standard_fio: 8, standard_email: 4, standard_dob: 10, standard_address: 5, payment_cvv: 70",97,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\07.04.01.pdf,"standard_fio: 2, standard_address: 19, payment_cvv: 24",45,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\07.04.02.pdf,"standard_address: 13, payment_cvv: 17",30,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\07.04.03.pdf,"standard_address: 3, payment_cvv: 10",13,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\1.1.pdf,"standard_fio: 1, standard_address: 11, payment_cvv: 8, special_health: 8",28,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\1.2.1.pdf,"standard_fio: 1, standard_address: 6, payment_cvv: 6, special_health: 6",19,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\1.2.2.pdf,"standard_address: 16, payment_cvv: 22, special_health: 2",40,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\1.2.2_mat_mod.pdf,"standard_address: 3, payment_cvv: 3, special_health: 3",9,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\1.2.2_r.pdf,"standard_address: 3, payment_cvv: 2, special_health: 1",6,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\1.3.pdf,"standard_fio: 1, standard_address: 6",7,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\1.4.pdf,"standard_address: 37, payment_cvv: 24, special_health: 97",158,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\1.5.pdf,"standard_fio: 2, standard_address: 13, special_health: 2",17,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\1.6.pdf,"standard_fio: 1, standard_address: 7, payment_cvv: 19, special_health: 5",32,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\100_asp.docx,"standard_address: 1, payment_cvv: 1",2,УЗ-2,.docx,Шифрование + RBAC
+Прочее\100_bak.docx,"standard_address: 1, payment_cvv: 1",2,УЗ-2,.docx,Шифрование + RBAC
+Прочее\100_bak_Urmosh.docx,"standard_address: 1, payment_cvv: 1",2,УЗ-2,.docx,Шифрование + RBAC
+Прочее\105_order_Spanish_courses.pdf,"standard_fio: 10, standard_phone: 4, standard_email: 4, standard_address: 5, payment_cvv: 31, special_race: 1",55,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\11.04.01.pdf,"standard_address: 13, payment_cvv: 12, special_health: 8",33,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\11.04.02.pdf,"standard_address: 22, payment_cvv: 22, special_health: 4",48,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\110401_М_3_17062021.pdf,"standard_fio: 9, standard_dob: 25, standard_address: 10, payment_cvv: 38, special_health: 3",85,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\118.pdf,payment_cvv: 16,16,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\12.04.01_r.pdf,"payment_cvv: 4, special_health: 1",5,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\12.04.01_t.pdf,"standard_address: 11, payment_cvv: 18, special_health: 1",30,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\142_152_Gorgorova.pdf,"standard_fio: 4, standard_email: 2, standard_dob: 9, standard_address: 14, payment_cvv: 43, special_health: 2",74,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\15.04.04.pdf,"standard_address: 10, payment_cvv: 17, special_health: 7",34,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\15.04.06.pdf,"standard_fio: 3, standard_address: 8, payment_cvv: 22, special_health: 1",34,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\16122024_DSU_Pulse.pdf,payment_cvv: 33,33,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\16862016212227.pdf,payment_cvv: 8,8,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\17437679069420.pdf,"standard_address: 7, payment_cvv: 31",38,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\17_av1-202252.pdf,"standard_fio: 2, standard_email: 2, standard_dob: 8, standard_address: 24, payment_cvv: 35, special_health: 4",75,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\18n.pdf,standard_dob: 12,12,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\19n.pdf,standard_dob: 4,4,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\1C_Science-pattern.rtf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\2.1.pdf,"standard_email: 1, standard_dob: 1, standard_address: 13, payment_cvv: 8, special_health: 5",28,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\2.2.13.pdf,"standard_address: 10, payment_cvv: 10, special_health: 7",27,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\2.2.14.pdf,"standard_address: 8, payment_cvv: 7, special_health: 6",21,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\2.2.16.pdf,"standard_address: 12, special_health: 1",13,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\2.3.1.pdf,"standard_address: 1, payment_cvv: 1, special_health: 7",9,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\2.3.1_t.pdf,"standard_address: 10, payment_cvv: 7, special_health: 4",21,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\2.3.4.pdf,special_health: 1,1,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\2.3.5.pdf,"standard_address: 5, special_health: 1",6,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\2.3.6.pdf,"standard_address: 5, payment_cvv: 8, special_health: 2",15,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\2.3.7.pdf,"standard_address: 14, payment_cvv: 14, special_health: 3",31,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\2.3.8.pdf,"standard_dob: 14, standard_address: 20, payment_cvv: 38, special_health: 9",81,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\2.4_reg_comisia_etica_r2.pdf,"standard_email: 1, standard_dob: 2",3,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\2.5.13.pdf,"standard_address: 6, special_health: 13",19,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\2.5.4.pdf,"standard_address: 9, state_passport: 1, state_inn: 1, payment_cvv: 14, special_health: 2",27,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\200_bak_Urmosh.docx,"standard_address: 1, payment_cvv: 1",2,УЗ-2,.docx,Шифрование + RBAC
+Прочее\2024%20Y%C4%B1l%C4%B1%20%C4%B0dare%20Faaliyet%20Raporu.pdf,"standard_dob: 544, state_snils: 11, payment_cvv: 2372",2927,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\2025-2.pdf,"standard_fio: 4, standard_phone: 3, standard_email: 1, standard_address: 2, state_passport: 1, state_inn: 1, payment_cvv: 361",373,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\2025-olanaklar.pdf,payment_cvv: 22,22,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\2025-_.pdf,"standard_fio: 1, standard_phone: 2, standard_address: 1, payment_cvv: 36",40,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\2025.pdf,"standard_email: 2, standard_address: 1, payment_cvv: 70",73,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\2025_MSASM_PI_E010.pdf,payment_cvv: 28,28,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\2025Правила%20приёма%202025.26.pdf,"standard_fio: 38, standard_dob: 46, standard_address: 31, payment_cvv: 55, special_health: 5",175,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\216e9fc932f0a2027c207d9b1bb2e0cd.pdf,"standard_fio: 3, standard_address: 39, payment_cvv: 8",50,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\2190-4286-12-49-S1.pdf,"standard_phone: 1, payment_cvv: 9",10,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\2190-4286-12-49.pdf,"standard_email: 2, state_snils: 2, payment_cvv: 168",172,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\22nssvm5rk9x2ss9h33xq5h9ckbae1gd.pdf,"standard_fio: 18, standard_email: 1, standard_dob: 8, standard_address: 34, payment_cvv: 97, special_health: 15",173,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\24.11.2020 - форма заявления на участие в конкурсе.docx,"standard_email: 1, standard_address: 1",2,УЗ-4,.docx,Контроль доступа + аудит
+Прочее\24.11.2020 - форма согласия соискателя.docx,"standard_dob: 2, standard_address: 2, payment_cvv: 3",7,УЗ-2,.docx,Шифрование + RBAC
+Прочее\24n.pdf,standard_dob: 18,18,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\27.04.04.pdf,"standard_address: 8, payment_cvv: 16, special_health: 6",30,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\27.04.06.pdf,"standard_dob: 1, standard_address: 11, state_passport: 1, state_inn: 1, payment_cvv: 13, special_health: 16",43,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\28.04.01_r.pdf,"standard_address: 11, payment_cvv: 23, special_health: 11",45,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\2n8uitfe0x.pdf,"standard_fio: 8, standard_address: 2, payment_cvv: 13",23,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\3 сентября EduNet.pdf,"standard_fio: 8, standard_phone: 1, standard_email: 2, standard_dob: 1, standard_address: 8, payment_cvv: 8, special_health: 4",32,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\37.04.01.pdf,"standard_fio: 1, standard_address: 46, payment_cvv: 77, special_health: 4",128,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\37.04.02.pdf,"standard_address: 7, payment_cvv: 27, special_health: 6",40,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\38.04.01.pdf,"standard_address: 11, payment_cvv: 1",12,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\38.04.01_Economics.pdf,payment_cvv: 1,1,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\38.04.02.pdf,"standard_address: 10, payment_cvv: 20, special_health: 2",32,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\38.04.02_ETP.pdf,payment_cvv: 12,12,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\38.04.03.pdf,"standard_address: 7, payment_cvv: 18, special_health: 2",27,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\38.04.08.pdf,"standard_dob: 3, standard_address: 16, payment_cvv: 20, special_health: 4",43,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\39.04.02.pdf,"standard_fio: 8, standard_address: 10, payment_cvv: 7, special_health: 3",28,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\4.1.3.pdf,standard_address: 2,2,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\4.3.5.pdf,"standard_address: 6, special_health: 3",9,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\40_04_01_program_mag_2025.pdf,"standard_fio: 4, standard_dob: 4, standard_address: 40, payment_cvv: 12, special_religion: 1",61,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\41.04.04.pdf,"standard_address: 10, payment_cvv: 25, special_health: 7, special_race: 4",46,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\41.04.05.pdf,"standard_fio: 8, standard_address: 33, payment_cvv: 10, special_health: 1",52,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\41.04.05_International_Communication.pdf,"standard_phone: 1, standard_address: 8, payment_cvv: 25, special_health: 1",35,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\42.pdf,"standard_fio: 6, standard_email: 8, standard_dob: 2, standard_address: 4, state_snils: 4, payment_cvv: 54, special_health: 5",83,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\43.04.01_programm_mag_2025.pdf,"standard_fio: 1, standard_address: 18, payment_cvv: 13, special_health: 2",34,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\43.04.02.pdf,"standard_dob: 2, standard_address: 9, payment_cvv: 14, special_health: 3",28,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\44.04.01_177.pdf,"standard_fio: 1, standard_address: 14, payment_cvv: 13, special_health: 1",29,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\44.04.01_inkl.pdf,"standard_address: 10, payment_cvv: 4, special_health: 2",16,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\44.04.01_innov.pdf,"standard_address: 5, payment_cvv: 5, special_health: 3",13,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\44.04.01_issled.pdf,"standard_address: 7, payment_cvv: 16, special_health: 1",24,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\44.04.01_ist.pdf,"standard_fio: 5, standard_dob: 2, standard_address: 16, payment_cvv: 7",30,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\44.04.01_nast.pdf,"standard_address: 11, payment_cvv: 4, special_health: 3",18,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\44.04.01_ped_nach.pdf,"standard_address: 6, payment_cvv: 6",12,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\44.04.01_ph_obr.pdf,"standard_address: 11, payment_cvv: 5",16,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\44.04.01_rukov.pdf,"standard_address: 5, payment_cvv: 12",17,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\44.04.01_soc_ped.pdf,"standard_address: 5, payment_cvv: 11",16,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\44.04.01_sov_obr.pdf,"standard_fio: 1, standard_dob: 2, standard_address: 4, payment_cvv: 3",10,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\44.04.01_spanish.pdf,"standard_fio: 1, standard_address: 13, payment_cvv: 20, special_health: 1",35,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\44.04.02.pdf,"standard_address: 14, special_health: 1",15,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\44.04.03.pdf,"standard_address: 12, payment_cvv: 15, special_health: 4",31,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\44.04.04.pdf,"standard_fio: 1, standard_address: 20, payment_cvv: 10, special_health: 1",32,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\44_04_02_obr_sred.pdf,"standard_address: 6, payment_cvv: 31, special_health: 1",38,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\45.04.01_International_Communication.pdf,"standard_address: 3, payment_cvv: 24",27,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\45.04.01_komm.pdf,"standard_fio: 1, standard_address: 8, payment_cvv: 12, special_health: 2",23,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\45.04.01_tpimk.pdf,"standard_fio: 2, standard_address: 7, payment_cvv: 30, special_health: 1",40,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\46.04.01.pdf,"standard_fio: 8, standard_dob: 1, standard_address: 28, payment_cvv: 6, special_health: 1",44,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\47.04.01.pdf,"standard_fio: 3, standard_address: 19, payment_cvv: 5, special_health: 4",31,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\47.pdf,standard_dob: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\49.03.02.pdf,"standard_fio: 6, standard_dob: 2, standard_address: 15, payment_cvv: 15",38,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\49.04.03.pdf,"standard_address: 26, payment_cvv: 30, special_health: 1",57,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\49.pdf,standard_email: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\49PSMN519.pdf,"standard_fio: 1, standard_email: 19, standard_address: 20, state_passport: 1, state_snils: 3, state_inn: 1, payment_cvv: 55, special_health: 29",129,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\4a2be25626609e594edc147261ef747d.pdf,"standard_fio: 5, standard_address: 37, payment_cvv: 5",47,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\4b708f12-9518-45cd-bac0-7b3ae2b4e78e.pdf,"standard_fio: 15, standard_address: 43, payment_cvv: 19, special_health: 11",88,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\5-05-20_US-59_27.12.2024.pdf,"standard_fio: 44, standard_dob: 144, standard_address: 174, payment_cvv: 445, special_health: 31",838,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\5-2-progDN.doc,"standard_fio: 2, standard_phone: 2, standard_email: 2, standard_dob: 32, payment_cvv: 79",117,УЗ-2,.doc,Шифрование + RBAC
+Прочее\5.1.3.pdf,"standard_dob: 1, payment_cvv: 2, special_health: 1",4,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\5.1.4.pdf,"standard_dob: 1, standard_address: 1, payment_cvv: 2, special_health: 2",6,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\5.10.1.pdf,"standard_fio: 2, standard_dob: 1, standard_address: 27, payment_cvv: 2, special_health: 10",42,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\5.12.1.pdf,"standard_address: 57, payment_cvv: 69, special_health: 12",138,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\5.2.1.pdf,"standard_fio: 1, standard_dob: 2, standard_address: 19, payment_cvv: 39, special_health: 3",64,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\5.2.3.pdf,"standard_fio: 1, standard_dob: 2, standard_address: 13, payment_cvv: 63, special_health: 4",83,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\5.2.4.pdf,"standard_fio: 1, standard_dob: 2, standard_address: 17, payment_cvv: 41, special_health: 1",62,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\5.2.4_org.pdf,"standard_fio: 3, standard_dob: 17, standard_address: 17, payment_cvv: 37, special_health: 4",78,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\5.2.5.pdf,"standard_fio: 1, standard_dob: 2, standard_address: 15, payment_cvv: 45, special_health: 4",67,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\5.2.6.pdf,"standard_fio: 1, standard_dob: 2, standard_address: 12, payment_cvv: 26, special_health: 7",48,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\5.3.1.pdf,"standard_address: 33, payment_cvv: 26, special_health: 7",66,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\5.3.2.pdf,"standard_address: 33, payment_cvv: 26, special_health: 7",66,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\5.3.5.pdf,"standard_address: 33, payment_cvv: 26, special_health: 7",66,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\5.5.1.pdf,"standard_fio: 20, standard_address: 64, payment_cvv: 59, special_health: 23, special_religion: 2",168,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\5.5.2.pdf,"standard_fio: 7, standard_address: 51, payment_cvv: 46, special_health: 21, special_religion: 1",126,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\5.7.1.pdf,"standard_fio: 1, standard_dob: 1, standard_address: 18, payment_cvv: 5, special_health: 5",30,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\5.7.2.pdf,"standard_fio: 1, standard_dob: 1, standard_address: 18, payment_cvv: 5, special_health: 5",30,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\5.7.7.pdf,"standard_fio: 1, standard_dob: 1, standard_address: 18, payment_cvv: 5, special_health: 5",30,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\5.7.8.pdf,"standard_fio: 1, standard_dob: 1, standard_address: 18, payment_cvv: 5, special_health: 5",30,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\5.8.1.pdf,"standard_fio: 1, standard_address: 33, payment_cvv: 36, special_health: 3",73,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\5.8.2.pdf,"standard_address: 29, payment_cvv: 36, special_health: 3",68,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\5.8.3.pdf,"standard_fio: 1, standard_address: 39, payment_cvv: 17, special_health: 4",61,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\5.8.7.pdf,"standard_address: 22, payment_cvv: 29, special_health: 2",53,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\5.8.pdf,"standard_dob: 2, standard_address: 16, payment_cvv: 25, special_health: 1",44,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\5.9.6_en.pdf,"standard_address: 22, payment_cvv: 28, special_health: 6",56,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\5.9.6_sp.pdf,"standard_fio: 2, standard_address: 21, payment_cvv: 15",38,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\5.9.8.pdf,"standard_address: 11, payment_cvv: 5, special_health: 3",19,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\51.04.01.pdf,"standard_fio: 3, standard_address: 12, payment_cvv: 5, special_health: 4, special_religion: 2",26,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\51n.pdf,standard_dob: 6,6,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\522.pdf,"standard_fio: 6, standard_email: 1, state_snils: 1, payment_cvv: 33, special_health: 2",43,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\54.04.01.pdf,"standard_address: 3, payment_cvv: 4, special_health: 10",17,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\54.04.02.pdf,"standard_fio: 1, standard_address: 5, payment_cvv: 4, special_health: 2",12,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\5487d8240beaf469a1a10ee370749263.pdf,"standard_fio: 3, standard_address: 33, payment_cvv: 5",41,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\5fqhsxirzo8b3s7xsukssg8sbsz05b38.pdf,"standard_fio: 18, standard_email: 1, standard_dob: 10, standard_address: 52, payment_cvv: 179, special_health: 46",306,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\6.pdf,"standard_email: 1, payment_cvv: 21",22,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\63_ffa6_7.Gizlilik%20ve%20%C3%87erez%20Politikas%C4%B1_4064465.docx,"standard_email: 3, payment_cvv: 5",8,УЗ-2,.docx,Шифрование + RBAC
+Прочее\66n.pdf,standard_dob: 16,16,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\6b588aa921ec0008657cb728cfce508d.pdf,"standard_fio: 4, standard_address: 35, payment_cvv: 5",44,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\766.pdf,"standard_dob: 18, payment_cvv: 9",27,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\7l786rg9llt2odfq9u9zmrwunkk3k3q7.pdf,"standard_fio: 3, standard_address: 1",4,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\8. Индексация Расп РФ.pdf,"payment_cvv: 3965, special_health: 7",3972,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\82174ac3fa46f97441160bfa3b5fef76.pdf,"standard_fio: 6, standard_address: 34, payment_cvv: 8",48,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\83124a_7c666ad59fdd470f83e349daad57df65.pdf,"standard_email: 1, payment_cvv: 2",3,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\9ld9ylp04noekda30doh1pe1qjxt7md9.pdf,"standard_dob: 1, standard_address: 1, payment_cvv: 24",26,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\accreditation.pdf,"standard_fio: 2, standard_dob: 3, standard_address: 7, state_passport: 1, state_inn: 1, payment_cvv: 3",17,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\AC_11082025.pdf,standard_dob: 392,392,УЗ-3,.pdf,Контроль доступа + аудит
+Прочее\aerospace_engg_2025.pdf,"standard_email: 1, payment_cvv: 69",70,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\AI-SANA_2603.pdf,"standard_fio: 4, standard_address: 2, payment_cvv: 11",17,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\AIC-DSU_CONTENT.pdf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\AICTE_2025.pdf,"standard_dob: 2, state_passport: 7, state_snils: 14, state_inn: 7, payment_cvv: 29",59,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\AICTE_Mandatory_Disclosure_2024_25.pdf,"standard_phone: 40, standard_email: 3, standard_dob: 465, state_passport: 115, state_snils: 74, state_inn: 114, payment_cvv: 1513",2324,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\allied_health_sciences_2025.pdf,"standard_email: 1, payment_cvv: 7",8,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Anant-Ram-UGC.pdf,standard_dob: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\anatom_fiziolog.pdf,payment_cvv: 1,1,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Anexos_stud_conf_2021_ru.doc,payment_cvv: 2,2,УЗ-2,.doc,Шифрование + RBAC
+Прочее\annot_spec.pdf,"standard_address: 1, special_health: 1",2,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Announcement-on-the-Opening-Day-of-the-INEP-SFU-on-March-30-2024.pdf,"standard_phone: 1, standard_address: 2, payment_cvv: 1",4,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Application-Offer-Form.rtf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\APS.docx,standard_email: 1,1,УЗ-4,.docx,Контроль доступа + аудит
+Прочее\Area%20studies%20and%20tourist%20destinations.pdf,"standard_phone: 1, standard_email: 2, state_passport: 1, state_inn: 1, payment_cvv: 2",7,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\arh_komp.pdf,"standard_address: 2, payment_cvv: 2",4,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\ar_1.pdf,"standard_fio: 1, standard_phone: 7, standard_email: 1, standard_dob: 1, standard_address: 11, payment_cvv: 20, special_health: 2",43,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Aula%20Hispanica_plano_rus_2016-po-mayo.pdf,"standard_fio: 3, standard_email: 2, standard_address: 6",11,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\Aula_Hispanica_plano_rus_2014-2015.pdf,"standard_fio: 11, standard_address: 12",23,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\Aula_Hispanica_rus_2015.pdf,"standard_fio: 4, standard_address: 6",10,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\Aula_Hispanica_vesna_2018.pdf,"standard_email: 2, standard_address: 5, payment_cvv: 4",11,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Aula_Hispánica_osen_2018_rus.doc,standard_fio: 1,1,УЗ-4,.doc,Контроль доступа + аудит
+Прочее\Aula_Hispánica_osen_2019_rus.pdf,"standard_fio: 3, standard_email: 2, standard_address: 7, payment_cvv: 4, special_health: 1",17,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\ayd%C4%B1nlatma%20metni%20-%20Copy%202.pdf,"standard_email: 4, standard_dob: 9, payment_cvv: 8",21,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Azov_conf-application.rtf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\Azov_conf-example.rtf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\Azov_conf-requirements.rtf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\BA_JMC_brochure_2025.pdf,"state_passport: 1, state_inn: 1, payment_cvv: 9",11,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\BBA_Brochure_2025.pdf,"standard_email: 1, payment_cvv: 9",10,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\BCA_brochure_2025.pdf,"standard_email: 1, payment_cvv: 4",5,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\BCom_Brochure.pdf,"standard_email: 1, payment_cvv: 6",7,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\BDesign_brochure.pdf,"state_passport: 1, state_inn: 1, payment_cvv: 4",6,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\besp_s.pdf,"standard_dob: 1, standard_address: 11, payment_cvv: 22",34,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\bezop_komp.pdf,"standard_fio: 1, payment_cvv: 6, special_health: 1",8,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\bez_vi_bak.docx,standard_address: 1,1,УЗ-4,.docx,Контроль доступа + аудит
+Прочее\BGP.pdf,"standard_email: 1, payment_cvv: 8",9,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Bid_Bachelor-Specialist.rtf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\Bid_Magistracy.rtf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\bio.pdf,"standard_address: 6, special_health: 4",10,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\bio_him_obr.pdf,"standard_address: 4, payment_cvv: 3, special_health: 2",9,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\bio_ino.pdf,"standard_address: 6, special_health: 4",10,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\bpharma_2025.pdf,"standard_email: 1, payment_cvv: 5",6,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\bpt_2025.pdf,"standard_email: 1, payment_cvv: 6",7,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\BSC_DS_2025.pdf,"standard_email: 1, payment_cvv: 8",9,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\BSc_MSc_Basic_Science_brochure_2025.pdf,"standard_email: 1, payment_cvv: 5",6,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\bsc_msc_nursing_2025.pdf,"standard_email: 1, standard_dob: 1, payment_cvv: 5",7,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Building_innovation_Vitoshko.pdf,"standard_phone: 1, standard_email: 1, payment_cvv: 3",5,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Business%20in%20Tourism%20and%20Hospitality.pdf,standard_email: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\Business%20Spanish%20A2%20the%20order.pdf,payment_cvv: 1,1,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\c50dea3311d9c12cf6e941d47f574300.pdf,"standard_fio: 3, standard_address: 33, payment_cvv: 6",42,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Call-for-papers_2024.pdf,"standard_email: 1, payment_cvv: 11",12,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\CartaCercetatoruluiCodul-de-Conduita.pdf,"standard_dob: 2, payment_cvv: 12",14,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\CartaInformativaCongreso2025_ru.pdf,"standard_fio: 1, standard_phone: 1, standard_email: 2, standard_address: 3, payment_cvv: 6",13,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Carta_ASEM.pdf,"standard_dob: 13, payment_cvv: 120",133,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Catalogue_of_UNG_Equipment_and_Expertise_for_External_users.pdf,"standard_email: 87, payment_cvv: 24",111,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\cher.pdf,"standard_address: 4, payment_cvv: 12",16,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\chislen0603.pdf,"standard_phone: 5, state_passport: 1, state_snils: 1, payment_cvv: 76",83,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\CMTF_oral_exam.pdf,payment_cvv: 2,2,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\CNO_AULA_Hispanica.pdf,"standard_email: 6, standard_address: 1",7,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\Cod_etica_2023.pdf,"standard_dob: 2, payment_cvv: 2",4,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\confl25.pdf,"standard_fio: 6, standard_phone: 2, standard_email: 2, standard_address: 3, payment_cvv: 8, special_health: 1",22,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\ConfPABCProgram_2023.pdf,"standard_fio: 1, standard_address: 2, payment_cvv: 1",4,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Congreso_Anexos_rus_2025.docx,payment_cvv: 8,8,УЗ-2,.docx,Шифрование + RBAC
+Прочее\contests.pdf,payment_cvv: 2,2,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\copy_of_shortlist-of-recommended-courses-2022-2023-21-09-2022.pdf,payment_cvv: 1,1,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Course%20syllabus%20%20MATHEMATICAL%20MODELS%20OF%20PROCESS%20AND%20SYSTEMS.pdf,"standard_email: 1, payment_cvv: 4",5,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Course%20Syllabus%20(General%20Pedagogy).pdf,"standard_email: 1, payment_cvv: 8",9,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Course%20syllabus%20(Model-analytical%20and%20Strategic%20Research%20Methods).pdf,"standard_email: 1, payment_cvv: 9",10,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Course%20Syllabus%20(Pedagogical%20Theory%20and%20Conceptions).pdf,"standard_email: 1, payment_cvv: 10",11,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Course%20Syllabus%20(Preparation%20of%20Scientific%20Publications).pdf,"standard_email: 1, payment_cvv: 5",6,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Course%20Syllabus%20(Vocational%20Training%20Technologies).pdf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Course%20syllabus%20ADVANCED%20PROBLEMS%20OF%20MATHEMATICAL%20PHYSICS.pdf,"standard_email: 1, payment_cvv: 6",7,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Course%20syllabus%20ASPT%20methods.pdf,"standard_email: 1, payment_cvv: 11",12,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Course%20syllabus%20Mathematical%20models%20in%20biology.pdf,standard_email: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\Course%20syllabus%20MODERN%20Computer%20Technologies%202022.pdf,standard_email: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\Course%20syllabus%20MODERN%20NUMERICAL%20METHODS%20IN%20MATHEMATICAL%20MODELING.pdf,standard_email: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\Course%20syllabus%20sample%20(International%20standards%20for%20legal%20-%20%D0%90%D1%80%D0%B7%D1%83%D0%BC%D0%B0%D0%BD%D1%8F%D0%BD).pdf,standard_email: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\Course%20syllabus%20sample_Ecology%20of%20the%20city.pdf,standard_email: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\Course%20syllabus%20sample_Environmental%20problems%20and%20environmental%20pollution.pdf,standard_email: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\Course%20syllabus%20sample_Key%20Concepts%20in%20Urban%20and%20Cultural%20Studies.pdf,standard_email: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\Course%20syllabus%20sample_Scientific%20research%20design%20of%20urban%20environment.pdf,standard_email: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\Course%20syllabus%20sample_Territory%20branding.pdf,standard_email: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\Course%20syllabus%20sample_Urban%20design%20project%204.%20Renovation%20of%20the%20urban%20environment.pdf,standard_email: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\Course%20syllabus%20sample_Urban%20design%20project%205.%20Designing%20an%20environment%20based%20on%20the%20concept%20of%20identity.pdf,standard_email: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\Course%20syllabus%20sample_Urban%20development.pdf,standard_email: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\Course%20syllabus%20Sociology%20of%20the%20Internet.pdf,"standard_email: 1, payment_cvv: 31",32,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Course%20syllabus_Culture%20and%20Philosophy%20of%20Ancient%20Greece%20in%20Russian%20studies%20of%20Classics_2022.pdf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Course%20syllabus_Logical%20Argumentation%20and%20Critical%20Thinking_2022.pdf,"standard_email: 1, payment_cvv: 5",6,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Course%20syllabus_Methodology%20of%20Social%20Sciences%20and%20Humanities_2022.pdf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Course%20syllabus_Nedin.pdf,"standard_email: 1, payment_cvv: 2",3,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Course%20syllabus_Religions%20%20.pdf,"standard_email: 2, payment_cvv: 1",3,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Course%20syllabus_Semiotic%20Studies%20in%20Russia%20and%20Development%20of%20the%20Humanities%20in%20Europe_2022.pdf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Course%20syllabus_Soviet%20Science%20and%20Science%20in%20Modern%20Russia_2022.pdf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\cpgz2j07avd690b8sv0s21rxpuypsq9t.pdf,"standard_fio: 12, standard_dob: 7, standard_address: 40, payment_cvv: 61",120,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\CT_RB_2025.pdf,"standard_fio: 6, standard_address: 1, payment_cvv: 1",8,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Cutting-edge%20management%20in%20hotels%20and%20hospitality%20enterprises.pdf,standard_email: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\CVDrKased.pdf,"standard_email: 4, payment_cvv: 85",89,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\d1e7a0684a9e51c599fb223264e96189.pdf,"standard_fio: 5, standard_email: 1, standard_dob: 2, standard_address: 8, payment_cvv: 6",22,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Der.pdf,payment_cvv: 7,7,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\DGTU-conference-programm.rtf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\diz_komp.pdf,"standard_address: 3, payment_cvv: 11, special_health: 2",16,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\do-market-commentary-global-disclosure.pdf,"standard_email: 1, payment_cvv: 8",9,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Donnews-Mediakit.pdf,payment_cvv: 29,29,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\dsu-symposium-2024.pdf,"standard_email: 1, standard_dob: 5, payment_cvv: 3",9,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\DSUFeedbackAnalysisReport.pdf,"standard_dob: 1, payment_cvv: 2",3,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\DSUSampleFilledFeedbackCollected.pdf,payment_cvv: 3,3,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\DSUStakeholdersFeedbackATR.pdf,"standard_email: 149, state_passport: 11, state_inn: 11, payment_cvv: 40",211,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\DSU_City_innovation_Campus_Programs_2025.pdf,"standard_email: 1, payment_cvv: 13",14,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\DSU_Main_Campus_Programs_2025.pdf,"standard_email: 1, payment_cvv: 14",15,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\DSU_Research_Ethics_Policy_2021.pdf,standard_dob: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\e341c346955f24a09fba0a84d37a870a.pdf,"standard_fio: 3, standard_address: 33, payment_cvv: 6",42,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\EBBondarevskaia_conference-info.rtf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\ece_2025.pdf,"standard_email: 1, payment_cvv: 9",10,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Ecology%20of%20the%20city.pdf,"standard_email: 1, state_snils: 1, payment_cvv: 10",12,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Economics%20of%20Sports.pdf,payment_cvv: 1,1,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Ecosystems.pdf,"standard_dob: 2, standard_address: 5, payment_cvv: 11",18,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\edvr4ufwv5zh72zrpiplz60e2rtwethf.pdf,"standard_fio: 13, standard_dob: 5, standard_address: 33, payment_cvv: 29",80,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\ekol_prirod.pdf,"standard_fio: 1, standard_dob: 1, standard_address: 9, payment_cvv: 33, special_health: 4",48,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\eko_geo.pdf,"standard_fio: 4, standard_address: 11, payment_cvv: 22, special_health: 2",39,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\eko_mon.pdf,"standard_fio: 2, standard_address: 31, payment_cvv: 51, special_health: 1",85,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\eko_str.pdf,"standard_fio: 1, standard_address: 21, payment_cvv: 24, special_health: 2",48,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\emir-frandt-disclosure.pdf,"standard_email: 2, payment_cvv: 1",3,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\emir-frandt-request-for-proposal.pdf,"standard_email: 3, payment_cvv: 2",5,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Entrepreneurship%20in%20Hospitality.pdf,standard_email: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\ergo.pdf,"standard_fio: 3, standard_address: 12, payment_cvv: 23, special_health: 1",39,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Errand_RFFI-form-v2.rtf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\Excursion%20business.pdf,standard_email: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\E_brochure_08022024.pdf,"standard_email: 1, state_snils: 1, payment_cvv: 3",5,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\f1m24swvehna3obtnn9xofw2bff4emsq.pdf,"standard_dob: 1, standard_address: 1, payment_cvv: 20",22,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\f985xk95uk352rnl7d2guv812ndifv14.pdf,"standard_fio: 8, standard_address: 35, payment_cvv: 25",68,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\fb66cb01477a968bfe786611fb0eea9b.pdf,"standard_fio: 5, standard_address: 32, payment_cvv: 8",45,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\FCP_competitions-notice.rtf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\fin_teh.pdf,"standard_fio: 1, standard_address: 9, payment_cvv: 19, special_health: 8",37,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\fis_podg_ino.pdf,"standard_dob: 5, standard_address: 5, payment_cvv: 13",23,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\fk.pdf,"standard_fio: 8, standard_dob: 5, standard_address: 11, payment_cvv: 12",36,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\FK_sport.pdf,"standard_fio: 1, standard_address: 28, payment_cvv: 30, special_health: 11",70,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Folleto_cursos_ruso1.pdf,"standard_email: 5, payment_cvv: 9",14,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\formo.rtf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\formulario_inscripcion_dele_2022.pdf,"standard_email: 5, payment_cvv: 2",7,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Freedom%20of%20Speech%20and%20Academic%20Freedom%20Code%20of%20Practice%20-%20v3.4.pdf,"standard_email: 7, standard_dob: 3",10,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\Fundamentals%20of%20Tourism.pdf,standard_email: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\FZ 273.rtf,"standard_phone: 811, standard_dob: 73, payment_account: 10, payment_cvv: 70",964,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\gender_equality_plan.pdf,"standard_dob: 4, state_snils: 1, payment_cvv: 28",33,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\GenerationS-info.rtf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\geo.pdf,"standard_fio: 2, standard_address: 9, payment_cvv: 23, special_health: 2",36,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\geolog.pdf,"standard_fio: 1, standard_address: 16, payment_cvv: 11, special_health: 1",29,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\geo_inf.pdf,"standard_fio: 1, standard_dob: 5, standard_address: 9, payment_cvv: 17, special_health: 1",33,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\geo_ino.pdf,"standard_fio: 2, standard_address: 9, payment_cvv: 23, special_health: 2",36,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Ghidul_Studentului_2023.pdf,"standard_email: 1, standard_dob: 3, payment_cvv: 54",58,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\gidrolog.pdf,"standard_fio: 1, standard_address: 9, payment_cvv: 10, special_health: 3",23,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\gk6wsflsno7xkvnynehy33ugy7n098ue.pdf,"standard_fio: 7, standard_address: 39, payment_cvv: 41",87,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\gl_VII_exam_P120-OD_reglament_PK.pdf,"standard_fio: 1, standard_dob: 1, payment_cvv: 1",3,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\gl_VI_P120-OD_reglament_PK.pdf,"standard_fio: 1, standard_dob: 1, standard_address: 1, payment_cvv: 1",4,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\gl_V_exam_P120-OD_reglament_PK.pdf,"standard_fio: 1, standard_dob: 1, standard_address: 3, payment_cvv: 2",7,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\google_privacy_policy_en_eu.pdf,payment_cvv: 5,5,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\google_privacy_policy_nl_eu.pdf,payment_cvv: 4,4,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\google_terms_of_service_en_eu.pdf,"standard_email: 2, state_passport: 3, payment_cvv: 54",59,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\google_terms_of_service_nl_eu.pdf,"standard_email: 2, state_passport: 3, payment_cvv: 54",59,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\goslicense.pdf,"standard_fio: 6, standard_dob: 3, standard_address: 9, state_inn: 4, payment_cvv: 1",23,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Government-order_220-notice.rtf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\graf.pdf,"standard_address: 5, payment_cvv: 12",17,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Harohalli_Hostel_Student_handbook.pdf,payment_cvv: 3,3,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Highlights 18.pdf,"standard_email: 16, payment_cvv: 130",146,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\himiya.pdf,standard_address: 9,9,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\himiya_ino.pdf,standard_address: 10,10,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\HiTech_Vitoshko.pdf,"standard_phone: 2, standard_email: 1, payment_cvv: 4",7,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Horario_Aula_Hispánica_marzo-junio-2021.docx,standard_email: 3,3,УЗ-4,.docx,Контроль доступа + аудит
+Прочее\How_to_get_enrolled_2025.pdf,"standard_fio: 2, standard_dob: 24, standard_address: 3, payment_cvv: 8",37,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\hud_of.pdf,"standard_address: 3, payment_cvv: 3, special_health: 1",7,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\ichki_tartib_qoidalar_2024.pdf,payment_cvv: 5,5,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\IDP.pdf,"standard_dob: 2, payment_cvv: 16",18,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\ID_2025.pdf,"standard_fio: 5, standard_address: 2, payment_cvv: 52, special_health: 73",132,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\incidents.json,"standard_phone: 17, standard_email: 4, payment_cvv: 67",88,УЗ-2,.json,Шифрование + RBAC
+Прочее\INFN_AI_Strategy_2024_aggiornato.pdf,payment_cvv: 1,1,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Inform-pismoSTO2016.doc,payment_cvv: 2,2,УЗ-2,.doc,Шифрование + RBAC
+Прочее\informatika.pdf,"standard_fio: 2, standard_dob: 2, standard_address: 9, state_passport: 1, state_inn: 1, payment_cvv: 9, special_health: 4",28,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Informatsionnoe-pismo_2024.pdf,"standard_fio: 2, standard_email: 1, standard_dob: 1, standard_address: 8, payment_cvv: 12, special_health: 1",25,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\inf_teh.pdf,standard_fio: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\ingak_description.pdf,"standard_fio: 2, standard_email: 1, standard_dob: 2, standard_address: 4, payment_cvv: 18",27,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\instr_PNO.pdf,payment_cvv: 3,3,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Instr_test_2024.pdf,"standard_phone: 1, standard_email: 1, payment_cvv: 3",5,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Instr_test_2025.pdf,payment_cvv: 3,3,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Integrated Marine Research Center.pdf,"standard_phone: 2, standard_email: 2, payment_cvv: 6",10,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\International%20transport%20law.pdf,"standard_email: 2, state_passport: 1, state_inn: 1, payment_cvv: 2",6,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\ipa2014%20(1).docx,standard_address: 16,16,УЗ-4,.docx,Контроль доступа + аудит
+Прочее\isk_int.pdf,"standard_fio: 3, standard_dob: 3, standard_address: 4, payment_cvv: 15, special_health: 11",36,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\ist_arh.pdf,"standard_fio: 16, standard_address: 36, payment_cvv: 6, special_health: 11, special_religion: 15",84,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\ist_isk.pdf,"standard_fio: 3, standard_address: 30, payment_cvv: 3, special_health: 10",46,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\ist_soc_rab.pdf,"standard_fio: 2, standard_address: 27, payment_cvv: 5",34,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\it_resh.pdf,"standard_fio: 8, standard_dob: 1, standard_address: 1, payment_cvv: 26, special_health: 11",47,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\IVD_2__1_Gorgorova.pdf_0704d8bae0.pdf,"standard_fio: 3, standard_dob: 2, standard_address: 8, payment_cvv: 15, special_health: 1",29,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\izo.pdf,"standard_address: 9, payment_cvv: 5",14,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\izveshenie-015.pdf,standard_address: 5,5,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\izveshenie_013.pdf,standard_address: 3,3,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\izveshenie_014.pdf,"standard_fio: 2, standard_address: 3",5,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\KCP_asp_2025.pdf,"standard_fio: 1, standard_address: 46, payment_cvv: 2, special_health: 5",54,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\KCP_bs_2025.pdf,"standard_address: 54, state_snils: 2, payment_cvv: 88, special_health: 3",147,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\KCP_mag_2025.pdf,"standard_address: 58, state_snils: 2, payment_cvv: 87, special_health: 5",152,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\KD_013.pdf,"standard_fio: 2, standard_dob: 2, standard_address: 25, payment_cvv: 4",33,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\KD_014_rus.pdf,"standard_fio: 5, standard_dob: 2, standard_address: 26, payment_cvv: 4",37,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\KD_SPA_2023.pdf,"standard_fio: 15, standard_phone: 2, standard_email: 1, standard_dob: 4, standard_address: 8, payment_cvv: 7",37,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\kol_vo_m.pdf,standard_address: 8,8,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\kol_vo_m_ino_dop.pdf,standard_address: 12,12,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\komp_teh.pdf,standard_fio: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\Language_Teaching_in_the_Modern_Digital_Era.pdf,payment_cvv: 15,15,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Life%20safety.pdf,standard_email: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\lit_ino.pdf,"standard_fio: 1, standard_address: 8, payment_cvv: 2",11,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\LLM_brochure_2025.pdf,"standard_email: 1, payment_cvv: 6",7,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\lodz-university-of-technology-on-the-path-of-sustainable-development_0.pdf,"state_passport: 1, state_inn: 1, payment_cvv: 51",53,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Management%20advances%20in%20hospitality.pdf,"standard_email: 1, payment_cvv: 4",5,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\mash_ob.pdf,"standard_fio: 2, standard_dob: 3, standard_address: 8, payment_cvv: 18, special_health: 10",41,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\matematika.pdf,"standard_address: 6, payment_cvv: 4, special_health: 2",12,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\matematika_ino.pdf,"standard_address: 7, payment_cvv: 3, special_health: 2",12,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\mat_mod.pdf,"standard_fio: 1, standard_address: 13, state_snils: 1, payment_cvv: 36, special_health: 2",53,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\MBA_brochure_2025.pdf,"standard_email: 1, payment_cvv: 7",8,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\mc201109.pdf,"standard_email: 14, standard_dob: 23, standard_address: 21, state_snils: 3, payment_cvv: 405, special_health: 1",467,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\mc201205.pdf,"standard_phone: 1, standard_email: 13, standard_dob: 13, standard_address: 39, payment_cvv: 345, special_health: 2",413,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\mc201308.pdf,"standard_phone: 1, standard_email: 24, standard_dob: 18, standard_address: 38, payment_cvv: 537, special_health: 4",622,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\MCA_brochure_2025.pdf,"standard_email: 1, payment_cvv: 6",7,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\mechanical_engg_2025.pdf,"standard_email: 1, payment_cvv: 8",9,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Media-Kit_KG_2020.pdf,"standard_fio: 2, standard_phone: 74, standard_address: 72, payment_cvv: 704",852,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\meteorolog.pdf,"standard_fio: 1, standard_address: 5, payment_cvv: 7, special_health: 3",16,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\metod_prof.pdf,"standard_address: 13, payment_cvv: 6, special_health: 2",21,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\metod_r.pdf,"standard_fio: 5, standard_phone: 1, standard_email: 1, standard_dob: 32, standard_address: 2, payment_cvv: 17",58,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Modern Microscopy.pdf,"standard_email: 2, standard_dob: 1, payment_cvv: 1",4,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Modern%20technology%20for%20improving%20the%20productivity%20of%20regional%20studies%20communications.pdf,"standard_email: 1, payment_cvv: 3",4,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\ModernSoftware_oral_exam.pdf,payment_cvv: 2,2,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Molecular_spectrostroscopy.pdf,"standard_email: 1, standard_dob: 1, payment_cvv: 2",4,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\mpharma_2025.pdf,"standard_email: 1, payment_cvv: 6",7,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\mpt_2025.pdf,"standard_email: 1, payment_cvv: 6",7,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\MSC_DS_2025.pdf,"standard_email: 1, payment_cvv: 8",9,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\mtech_2025.pdf,"standard_email: 1, payment_cvv: 5",6,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\m_lit.pdf,"standard_fio: 1, standard_address: 3, payment_cvv: 5",9,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\N413_17_05_2012.rtf,"standard_dob: 560, payment_cvv: 243",803,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\Nanoscale_substance_structure.pdf,payment_cvv: 1,1,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Nanotechnologies.pdf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\New%20managerial%20opportunities%20for%20modern%20organization.pdf,standard_email: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\ni_grant.pdf,"standard_fio: 4, standard_dob: 2, standard_address: 6, payment_cvv: 6, special_health: 2",20,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Notification & Invitation - 11th Convocation of Manipal University Jaipur.pdf,"standard_email: 3, payment_cvv: 1",4,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\NSS_Actvities.pdf,payment_cvv: 2,2,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\obrab_inf.pdf,"standard_fio: 4, standard_address: 3, payment_cvv: 13",20,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\obsh.pdf,"standard_fio: 2, standard_dob: 1, standard_address: 5, payment_cvv: 2, special_race: 1",11,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\obsh_e.pdf,"standard_address: 1, payment_cvv: 1, special_health: 4",6,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Ombadsuperson.pdf,"standard_email: 2, standard_dob: 10, state_snils: 1, state_inn: 1, payment_cvv: 48",62,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\osn_alg.pdf,"standard_address: 5, payment_cvv: 7, special_health: 7",19,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\osn_bio.pdf,"standard_address: 6, payment_cvv: 13, special_health: 4",23,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\osn_el.pdf,"standard_address: 7, payment_cvv: 17, special_health: 9",33,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\osn_geo_obr.pdf,"standard_fio: 3, standard_address: 10, payment_cvv: 23, special_health: 2",38,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\osn_hud_d.pdf,"standard_address: 5, payment_cvv: 2, special_health: 1",8,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\osn_mat_obr.pdf,"standard_fio: 6, standard_address: 3, payment_cvv: 4, special_health: 2",15,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\osn_serv.pdf,"standard_fio: 3, standard_address: 15, payment_cvv: 13, special_health: 3",34,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\osn_soc_ped.pdf,"standard_fio: 1, standard_dob: 2, standard_address: 9, payment_cvv: 8",20,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\osn_soc_rab.pdf,"standard_address: 19, payment_cvv: 22, special_health: 1",42,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\osn_turism.pdf,"standard_address: 12, payment_cvv: 12, special_health: 1",25,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\osob_prava.pdf,"standard_fio: 1, standard_address: 1, payment_cvv: 11",13,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\otbor_k.pdf,"standard_fio: 60, standard_phone: 71, standard_email: 110, standard_address: 2, state_passport: 2, state_snils: 54, state_inn: 2, payment_cvv: 107",408,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Otchet%202016.pdf,"standard_fio: 122, standard_phone: 11, standard_email: 2, standard_dob: 95, standard_address: 570, state_snils: 25, payment_cvv: 3705, special_health: 110, special_religion: 1",4641,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Otchet_2011.pdf,"standard_fio: 3, standard_address: 12, payment_cvv: 2",17,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Otchet_2012.pdf,"standard_fio: 9, standard_address: 7, payment_cvv: 1",17,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Otchet_2013.pdf,"standard_fio: 5, standard_address: 14, payment_cvv: 17",36,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Otchet_2014_rus.pdf,"standard_fio: 3, standard_dob: 4, standard_address: 14, state_inn: 1, payment_cvv: 37",59,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Otchet_mezhdunarodnaya_deyatelnost_2016.pdf,"standard_fio: 93, standard_email: 32, standard_dob: 46, standard_address: 68, state_inn: 2, payment_cvv: 49",290,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Otchet_nauka_2016.pdf,"standard_fio: 59, standard_dob: 40, standard_address: 92, payment_cvv: 76",267,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Ovsepyan%20Course%20syllabus.pdf,"standard_email: 1, payment_cvv: 2",3,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\P138_16.05.2023.pdf,standard_address: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\P142_22.05.2023.pdf,"standard_fio: 1, standard_dob: 3, payment_cvv: 2, special_health: 1",7,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\P201-OD.pdf,"standard_fio: 24, standard_dob: 14, standard_address: 2, payment_cvv: 10",50,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\P248_2022.pdf,"standard_fio: 1, standard_address: 3, payment_cvv: 6",10,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\p805_2021.pdf,"standard_dob: 4, standard_address: 1, payment_cvv: 3",8,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\P982.pdf,"standard_fio: 4, standard_address: 15, payment_cvv: 7266, special_health: 4",7289,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\pamyatka.pdf,"standard_fio: 1, standard_phone: 2, standard_email: 1, payment_cvv: 6",10,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\PCTE-2025.pdf,"standard_email: 1, payment_cvv: 79",80,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\pedagogika.pdf,"standard_fio: 1, standard_dob: 1, standard_address: 5, payment_cvv: 7, special_health: 1",15,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\ped_d.pdf,"standard_address: 2, payment_cvv: 5, special_health: 4",11,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\ped_doshk.pdf,"standard_fio: 1, standard_dob: 3, standard_address: 10, payment_cvv: 7, special_health: 1",22,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\ped_nach.pdf,"standard_address: 14, payment_cvv: 1, special_health: 6",21,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Perechen_poruchenii.pdf,"standard_fio: 3, standard_address: 4, special_health: 1",8,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\perezachet.docx,standard_address: 1,1,УЗ-4,.docx,Контроль доступа + аудит
+Прочее\pfhd_2023_01.pdf,"standard_phone: 1, standard_dob: 2, standard_address: 8, state_passport: 1, state_snils: 1, state_inn: 1, payment_cvv: 469",483,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\pfhd_2023_02.pdf,"standard_phone: 1, standard_dob: 2, standard_address: 8, state_passport: 1, state_snils: 1, state_inn: 1, payment_cvv: 471",485,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\pfhd_2024.pdf,"standard_phone: 1, standard_dob: 2, standard_address: 8, state_passport: 1, state_snils: 1, state_inn: 1, payment_cvv: 437",451,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\pfhd_2024_01.pdf,"standard_phone: 1, standard_dob: 2, standard_address: 8, state_passport: 1, state_snils: 1, state_inn: 1, payment_cvv: 459",473,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\pfhd_2024_02.pdf,"standard_phone: 1, standard_dob: 2, standard_address: 8, state_passport: 1, state_snils: 1, state_inn: 1, payment_cvv: 463",477,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\pfhd_2025.pdf,"standard_phone: 1, standard_dob: 2, standard_address: 8, state_passport: 1, state_snils: 1, state_inn: 1, payment_cvv: 435",449,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\pfhd_2025_01.pdf,"standard_phone: 1, standard_dob: 2, standard_address: 8, state_passport: 1, state_snils: 1, state_inn: 1, payment_cvv: 464",478,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\pfhd_2025_02.pdf,"standard_phone: 1, standard_dob: 2, standard_address: 8, state_passport: 1, state_snils: 1, state_inn: 1, payment_cvv: 475",489,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\ph.pdf,"standard_address: 10, payment_cvv: 1",11,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\pharm_d_2025.pdf,"standard_email: 1, payment_cvv: 5",6,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\physical%20Culture%20and%20sport.pdf,"standard_email: 1, payment_cvv: 7",8,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\ph_ino.pdf,"standard_address: 10, payment_cvv: 1",11,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\plan-meropriyatij-bgtu-k-80-letiyu-osvobozhdeniya.pdf,"standard_fio: 1, standard_address: 7",8,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\Planes2015_anodual_rus.pdf,"standard_fio: 7, standard_address: 1, payment_cvv: 1",9,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Planes2015_rus.pdf,"standard_fio: 10, standard_address: 17, payment_cvv: 9",36,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Planes2016_rus.pdf,"standard_fio: 19, standard_address: 15, payment_cvv: 6",40,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\politika-obrabotki-dannyh-tassru.docx,"standard_email: 1, standard_dob: 45, standard_address: 3, payment_cvv: 79, special_health: 2",130,УЗ-1,.docx,Шифрование + RBAC
+Прочее\Politika-PDN.pdf,"standard_dob: 2, standard_address: 8, payment_cvv: 2, special_health: 2",14,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Politika_privatnosti_UB.pdf,"standard_fio: 1, standard_email: 3, payment_cvv: 10",14,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\polozhenie-po-okazaniyu-situaczionnoj-pomoshhi-invalidam.pdf,"standard_address: 4, special_health: 3",7,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\polozhenie_econom.pdf,"standard_dob: 1, standard_address: 5, payment_cvv: 2, special_health: 1",9,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\polozhenie_o_thesis_2024.pdf,"standard_fio: 2, standard_dob: 2, standard_address: 6, payment_cvv: 12, special_health: 10",32,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\poriadok_otbora.pdf,standard_address: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\poryadok asp 1259.docx,payment_cvv: 2,2,УЗ-2,.docx,Шифрование + RBAC
+Прочее\posih.pdf,"standard_fio: 2, standard_address: 2, special_health: 1",5,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Postanovlenie Pravitelstva N 568.pdf,"standard_fio: 6, standard_dob: 17, standard_address: 8, payment_cvv: 14",45,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\PP%20BSM%202025.pdf,"standard_fio: 42, standard_dob: 24, standard_address: 16, payment_cvv: 184, special_health: 13",279,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\pp-bsm.pdf,"standard_fio: 32, standard_dob: 11, standard_address: 21, payment_cvv: 92, special_health: 6",162,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\pr10_15092012.pdf,"standard_email: 1, payment_cvv: 2",3,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\pr125auto.doc,"standard_email: 1, payment_cvv: 10",11,УЗ-2,.doc,Шифрование + RBAC
+Прочее\pr5_25102012.pdf,payment_cvv: 1,1,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\pr6_09022013.pdf,payment_cvv: 2,2,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\pr7.pdf,payment_cvv: 1,1,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\pr8_19042013.pdf,payment_cvv: 1,1,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\pravila-vnutrennego-trudovogo-rasporyadka-bgtu.pdf,"standard_fio: 6, standard_dob: 4, standard_address: 5, payment_cvv: 13, special_health: 1",29,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\PravilaPriema_2025_VO_izm_24.01.2025.pdf,"standard_fio: 101, standard_dob: 7, standard_address: 45, payment_cvv: 157, special_health: 6",316,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Pravila_priema_2025_na_sait.pdf,"standard_fio: 13, standard_address: 3, payment_cvv: 120, special_health: 5",141,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Pravila_priema_2025_v_SGUGiT_Bakalavriat_Specialitet.pdf,"standard_fio: 71, standard_dob: 14, standard_address: 6, payment_cvv: 140, special_health: 8",239,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Pravila_priema_bac_spec_2025.pdf,"standard_fio: 27, standard_dob: 9, standard_address: 8, payment_cvv: 149, special_health: 5",198,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\pravila_priema_v_bakalavriat_spetsialitet_bazov_vo_magistraturu_spets_vo_na_2025-26.pdf,"standard_fio: 33, standard_email: 2, standard_dob: 10, standard_address: 6, payment_cvv: 194, special_health: 5",250,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\President_Grants-2018-info.rtf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\price-2025.pdf,"standard_fio: 3, standard_phone: 2, standard_email: 1, payment_cvv: 33",39,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Prikaz 601.pdf,"standard_fio: 7, standard_dob: 70, standard_address: 6, payment_cvv: 80, special_health: 8",171,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Prikaz П1421.pdf,"standard_address: 10, special_health: 2",12,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Prikaz-1845_Application1-Report.rtf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\Prikaz-1845_Application2-Act.rtf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\Prikaz-1846_Application1-Report.rtf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\Prikaz-1846_Application2-Act.rtf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\Prikaz-1928_Application1-Report_form.rtf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\Prikaz-1928_Application2-IC_codes.rtf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\prikaz_N_1010_1_ot_20.11.2018_.pdf,standard_dob: 22,22,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\prikaz_N_1022_ot_21.11.2018_.pdf,standard_dob: 14,14,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\prikaz_N_675_ot_30.08.2018_.pdf,"standard_dob: 26, payment_cvv: 13",39,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\prikl_mat.pdf,"standard_address: 6, payment_cvv: 30, special_health: 1",37,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Prilogenie_Structural_division-report_form.rtf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\Prioritet_itogi.pdf,"standard_fio: 21, standard_address: 3",24,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\procedures-and-policies-for-maintenance.pdf,payment_cvv: 2,2,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\processing__agreement.pdf,"standard_fio: 22, standard_phone: 2, standard_email: 1, standard_dob: 50, standard_address: 25, state_passport: 1, state_inn: 1, payment_cvv: 79, special_health: 2",183,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Prof.communication.pdf,"standard_email: 1, payment_cvv: 2",3,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\program.pdf,"standard_fio: 4, standard_address: 48, payment_cvv: 8, special_health: 10",70,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\PROGRAMMA%20FESTIVAL.pdf,"standard_fio: 33, standard_dob: 1, standard_address: 5, payment_cvv: 8, special_health: 2",49,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Progress%20report%20on%20the%20implementation%20of%20the%20Excellence%20Initiative%20-%20Research%20University%20by%20TUL.pdf,"standard_email: 1, payment_cvv: 51",52,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Prog_stud_conf_Dec_es_2024_esp.pdf,payment_cvv: 9,9,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Prog_stud_conf_Dec_es_2024_rus.pdf,"standard_fio: 313, standard_address: 10, payment_cvv: 9, special_health: 5",337,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Prot1_17.10.2024.pdf,"standard_fio: 2, standard_dob: 13, standard_address: 5, state_snils: 206, payment_cvv: 622",848,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Prot2_20.02.2025.pdf,"standard_fio: 3, standard_dob: 14, standard_address: 2, state_snils: 190, payment_cvv: 581",790,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Prot3_11.03.2025.pdf,"standard_fio: 3, standard_dob: 12, standard_address: 2, state_snils: 130, payment_cvv: 399",546,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Prot4_17.07.2025.pdf,"standard_fio: 2, standard_dob: 3, standard_address: 2, state_snils: 125, payment_cvv: 376",508,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Protokol N3 2022.pdf,"standard_fio: 53, standard_phone: 2, standard_email: 2, standard_address: 6, payment_cvv: 4",67,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Protokol.pdf,"standard_fio: 37, standard_phone: 1, standard_email: 1, standard_dob: 1, standard_address: 7, state_snils: 1, special_health: 1",49,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Protokol_0.pdf,"standard_fio: 20, standard_phone: 1, standard_email: 1, standard_address: 4, payment_cvv: 3, special_health: 1",30,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Protokol_04_02_2021.pdf,"standard_fio: 67, standard_phone: 1, standard_email: 1, standard_address: 11, state_snils: 1, payment_cvv: 5, special_health: 5",91,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Protokol_1.pdf,"standard_fio: 9, standard_phone: 1, standard_email: 1, standard_address: 4, payment_cvv: 3",18,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Protokol_20.pdf,"standard_fio: 17, standard_email: 1, standard_address: 4, payment_cvv: 3",25,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\protokol_21.pdf,"standard_fio: 21, standard_phone: 1, standard_email: 1, standard_address: 4, state_snils: 1, payment_cvv: 2",30,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\protokol_25.pdf,"standard_fio: 18, standard_phone: 1, standard_email: 1, standard_address: 4, payment_cvv: 1",25,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Protokol_6_06.09.2023.pdf,"standard_fio: 90, standard_phone: 2, standard_email: 2, standard_address: 4, state_snils: 1, payment_cvv: 2",101,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Protokol_prez_N2.pdf,"standard_fio: 99, standard_phone: 1, standard_email: 1, standard_address: 8, payment_cvv: 6",115,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\psih_obr.pdf,"standard_address: 11, payment_cvv: 16, special_health: 2",29,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Public Self Disclosure.pdf,"standard_email: 9, state_passport: 2, state_inn: 2",13,УЗ-3,.pdf,Контроль доступа + аудит
+Прочее\Public_Self_Disclosure_DSU.pdf,"standard_email: 10, state_passport: 8, state_snils: 1, state_inn: 8, payment_cvv: 3",30,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\QC3.pdf,"standard_email: 2, state_passport: 2, state_inn: 2, payment_cvv: 3",9,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Raport_2024_EN.pdf,"standard_email: 1, state_snils: 1, payment_cvv: 668",670,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Raport_comisia_etica.pdf,"standard_dob: 23, payment_cvv: 2",25,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\rasp1426-p_20140814.pdf,"standard_fio: 15, standard_dob: 1, standard_address: 2, payment_cvv: 112, special_health: 9",139,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\rasp167H_20130426.pdf,"standard_fio: 7, standard_dob: 3, standard_address: 3, payment_cvv: 1",14,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\rasp2190-p_20121126.pdf,"standard_fio: 83, standard_address: 35, payment_cvv: 232, special_health: 5",355,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\rasp504_20130930.pdf,"standard_fio: 2, standard_dob: 1, standard_address: 5, payment_cvv: 17, special_health: 8",33,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\rasp722-p_20140430.pdf,"standard_fio: 21, standard_phone: 2, standard_address: 14, payment_cvv: 85, special_health: 1",123,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Rasporiagenie-1092-p_report-form.rtf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\Rasporiagenie-1129-p_Application-sample.rtf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\rasp_dop_mag.pdf,"standard_fio: 1, standard_dob: 73",74,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\rasp_prezRF.pdf,"standard_fio: 4, payment_cvv: 1",5,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\report_07112022.pdf,"standard_fio: 11, standard_dob: 5, standard_address: 8, payment_cvv: 54, special_health: 14",92,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\requisites.pdf,"standard_fio: 5, standard_phone: 6, standard_email: 1, standard_dob: 1, standard_address: 11, state_passport: 5, state_snils: 3, state_inn: 5, payment_account: 5, payment_bik: 5, payment_cvv: 10",57,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\ris.pdf,"standard_address: 3, payment_cvv: 3",6,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\ris_cher.pdf,"standard_address: 5, payment_cvv: 15",20,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\ris_zhiv.pdf,"standard_address: 9, payment_cvv: 7, special_health: 3",19,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\rp23-11-2006-N1616-p.pdf,"standard_fio: 6, standard_address: 12, payment_cvv: 1",19,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\RSOCH_2025.pdf,"standard_fio: 29, standard_address: 1, payment_cvv: 121, special_health: 123",274,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\rules_01_2025.pdf,"standard_fio: 7, standard_address: 8, payment_cvv: 98, special_health: 5",118,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Russian_Cultural_Studies.pdf,"standard_address: 9, payment_cvv: 5",14,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\ry_ino.pdf,"standard_fio: 2, payment_cvv: 8",10,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\samoobsled_2024.pdf,"standard_fio: 127, standard_phone: 11, standard_dob: 60, standard_address: 358, state_passport: 5, state_snils: 58, payment_cvv: 2133, special_health: 94",2846,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\SciFinder%20Discovery%20Platform.pdf,"standard_address: 8, payment_cvv: 13, special_health: 8",29,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\SELF_PORTRAIT_english_2025_ONLINE%20%281%29.pdf,"standard_email: 5, standard_dob: 1, state_snils: 1, payment_cvv: 506",513,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\SFedU_.pdf,"standard_email: 2, payment_cvv: 6",8,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Sobre_nosotros_2025_compressed.pdf,standard_fio: 5,5,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\social2023.pdf,"standard_dob: 2, payment_cvv: 45",47,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\social2024.pdf,"standard_dob: 2, state_snils: 2, payment_cvv: 67",71,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\SoE_Brochure_2025.pdf,"standard_email: 1, payment_cvv: 15",16,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\soglasie_leadplan.pdf,"standard_fio: 1, standard_email: 3, standard_dob: 5, standard_address: 6, state_passport: 2, state_inn: 2, payment_cvv: 7",26,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\SoL_Brochure.pdf,"standard_email: 1, payment_cvv: 12",13,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Sootv_asp_2025.pdf,"standard_fio: 7, standard_dob: 1, standard_address: 1, payment_cvv: 1, special_health: 10",20,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Sootv_mag_2025.pdf,"standard_fio: 60, standard_address: 1, payment_cvv: 14, special_health: 40",115,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Spanish%20course%20A.pdf,"standard_fio: 11, standard_dob: 66, standard_address: 41, payment_cvv: 42, special_race: 1",161,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Spanish%20course%20B.pdf,"standard_fio: 9, standard_dob: 66, standard_address: 34, payment_cvv: 43",152,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\spec_him.pdf,"standard_address: 4, payment_cvv: 1, special_health: 1",6,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\spec_ped.pdf,"standard_address: 13, payment_cvv: 5, special_health: 3",21,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Spisok_citiruemosti_NII_Phys.docx,"standard_address: 1, payment_cvv: 783",784,УЗ-2,.docx,Шифрование + RBAC
+Прочее\Spisok_indiv_dostig.pdf,"standard_fio: 4, payment_cvv: 1",5,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\spisok_shablon.docx,standard_fio: 1,1,УЗ-4,.docx,Контроль доступа + аудит
+Прочее\sport_podg_ino.pdf,"standard_dob: 5, standard_address: 4, payment_cvv: 13",22,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\sport_sover.pdf,"standard_fio: 6, standard_dob: 5, standard_address: 10, payment_cvv: 16",37,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Sred_ZPL_Adm_2016.pdf,"standard_fio: 11, standard_dob: 22, standard_address: 1, payment_cvv: 22",56,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\sred_zp_adm_2017.pdf,"standard_fio: 11, payment_cvv: 22",33,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\standing order about Scientific research institute  of Physics.pdf,"standard_address: 3, payment_cvv: 52, special_health: 10",65,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\STEM.pdf,"standard_address: 6, payment_cvv: 10",16,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\stranoved.pdf,"standard_fio: 2, standard_address: 10, payment_cvv: 23, special_health: 2",37,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Structural_division_Report_Form.rtf,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\Structure_20190114.pdf,"standard_fio: 2, standard_address: 6, payment_cvv: 73",81,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\sved_dohod_2023.pdf,"standard_fio: 12, standard_phone: 1, standard_email: 1, standard_dob: 1, state_passport: 1, state_inn: 1, payment_cvv: 24",41,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\sved_o_d_f_g_2014.docx,standard_address: 6,6,УЗ-4,.docx,Контроль доступа + аудит
+Прочее\sved_o_d_f_k_2014.docx,"standard_fio: 1, standard_address: 2",3,УЗ-4,.docx,Контроль доступа + аудит
+Прочее\sved_o_d_f_m_2014.docx,"standard_fio: 3, standard_address: 6",9,УЗ-4,.docx,Контроль доступа + аудит
+Прочее\sved_o_d_f_u_2014.docx,standard_address: 1,1,УЗ-4,.docx,Контроль доступа + аудит
+Прочее\sved_o_d_r_2012-2014.docx,standard_address: 3,3,УЗ-4,.docx,Контроль доступа + аудит
+Прочее\teacher_instruction_new.pdf,"standard_phone: 1, standard_email: 1, payment_cvv: 2",4,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\tehn_int.pdf,"standard_fio: 1, standard_dob: 3, standard_address: 5, payment_cvv: 15, special_health: 3",27,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\tehn_int_d.pdf,"standard_address: 10, payment_cvv: 2, special_health: 1",13,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Telephone_Directory1.pdf,"standard_email: 38, state_passport: 38, state_inn: 38",114,УЗ-3,.pdf,Контроль доступа + аудит
+Прочее\teor_osn.pdf,"standard_fio: 6, standard_address: 17, payment_cvv: 12, special_health: 15",50,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Tesis_kruglii_stol_1.pdf,standard_fio: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\Theory%20and%20methodology%20of%20research%20and%20teaching%20in%20hospitality%20industry.pdf,"standard_email: 5, payment_cvv: 2",7,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Thesis_kruglii_stol.pdf,"standard_fio: 7, standard_address: 2, payment_cvv: 6",15,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\The_SRC.pdf,"standard_email: 1, payment_cvv: 4",5,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Tourism%20development.pdf,"standard_email: 1, payment_cvv: 2",3,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\transport_inform_list_2016.doc,"standard_email: 1, payment_cvv: 1",2,УЗ-2,.doc,Шифрование + RBAC
+Прочее\Trusted_AI_for_Blockchain.pdf,payment_cvv: 18,18,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\TsKP_Biotekhnologia_biomeditsina_i_ekologicheskiy_monitoring_Babeshko.pdf,"standard_phone: 1, standard_email: 1, state_snils: 1, payment_cvv: 1",4,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\UGC-Form-Annexures.pdf,payment_cvv: 36,36,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\UGC-Proforma.pdf,"standard_email: 5, standard_dob: 20, state_passport: 1, state_inn: 1, payment_cvv: 57",84,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\UGC-Public-Self-Disclosure-document.pdf,"standard_email: 12, state_passport: 8, state_inn: 8",28,УЗ-3,.pdf,Контроль доступа + аудит
+Прочее\ujj532ypug9ufeambtzkzh6kfdqoa6yp.pdf,standard_address: 2,2,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\Ukaz Prezidenta 226.rtf,"standard_phone: 811, standard_dob: 5, payment_account: 10, payment_cvv: 21",847,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\Ukaz Prezidenta 364_15.06.15.rtf,"standard_phone: 15, standard_dob: 3, payment_account: 10, payment_cvv: 21",49,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\Ukaz Prezidenta 378.pdf,"standard_fio: 77, standard_address: 32, payment_cvv: 9, special_health: 3",121,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Ukaz Prezidenta 478_16.08.21.pdf,"standard_fio: 80, standard_address: 49, state_snils: 1, payment_cvv: 10, special_health: 20",160,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\ukaz597_20120507.pdf,"standard_fio: 8, standard_address: 14, payment_cvv: 6",28,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\UKS_Campus_Map_English.pdf,standard_email: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\umn_gor.pdf,"standard_fio: 5, standard_address: 21, payment_cvv: 49, special_health: 16",91,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\upr_izm.pdf,"standard_address: 8, payment_cvv: 23, special_health: 14",45,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\upr_kiber.pdf,"standard_fio: 1, standard_address: 8, payment_cvv: 17, special_health: 11",37,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\upr_pr.pdf,"standard_address: 3, payment_cvv: 8, special_health: 13",24,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\upr_proc.pdf,"standard_fio: 5, standard_address: 21, payment_cvv: 49, special_health: 16",91,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Urban_Design.pdf,"standard_fio: 3, standard_address: 6, payment_cvv: 34",43,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\user_registration_in_EBS_Lan.docx,standard_email: 2,2,УЗ-4,.docx,Контроль доступа + аудит
+Прочее\u_konsor.doc,standard_email: 1,1,УЗ-4,.doc,Контроль доступа + аудит
+Прочее\v-profsoyuz-rabotnika-yufu2024.doc,payment_cvv: 1,1,УЗ-2,.doc,Шифрование + RBAC
+Прочее\vesna_fizfak.docx,standard_fio: 1,1,УЗ-4,.docx,Контроль доступа + аудит
+Прочее\Vistavka_rus-iaz.pdf,standard_address: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\vi_asp.docx,standard_address: 1,1,УЗ-4,.docx,Контроль доступа + аудит
+Прочее\vi_mag.docx,standard_address: 1,1,УЗ-4,.docx,Контроль доступа + аудит
+Прочее\vozr_psih.pdf,"standard_address: 7, payment_cvv: 23, special_health: 2",32,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\VSOCH_2025.pdf,"standard_fio: 147, special_health: 3",150,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\vsp_isp_ogran_zdorov.pdf,"payment_cvv: 1, special_health: 2",3,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Vtoroe_informatcionnoe_pis`mo_Kongress_2025.pdf,"standard_phone: 2, standard_email: 1, payment_cvv: 4",7,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\VUZUFO.doc,payment_cvv: 7,7,УЗ-2,.doc,Шифрование + RBAC
+Прочее\web_pril.pdf,"standard_fio: 2, payment_cvv: 5, special_health: 2",9,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\web_razr.pdf,"standard_address: 2, payment_cvv: 2, special_health: 1",5,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\wpm5skhpgcr5ncwf6dwz92dutt9ucc13.pdf,"standard_fio: 25, standard_address: 44, payment_cvv: 47, special_health: 21",137,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\yetkinlik-ve-performans.pdf,payment_cvv: 6,6,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\zayavlenie_kursi_2019.docx,"standard_dob: 1, payment_cvv: 1",2,УЗ-2,.docx,Шифрование + RBAC
+Прочее\zayv_shablon.docx,standard_fio: 1,1,УЗ-4,.docx,Контроль доступа + аудит
+Прочее\zhiv.pdf,"standard_address: 8, payment_cvv: 4, special_health: 3",15,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\zhiv_cher.pdf,"standard_address: 11, payment_cvv: 16, special_health: 3",30,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\_%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%B8%D0%B5%20%D0%B2%20%D0%9F%D0%98%D0%A0%20%D0%B3%D0%BE%D1%81%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B9.doc,payment_cvv: 2,2,УЗ-2,.doc,Шифрование + RBAC
+Прочее\Анкета.docx,standard_address: 1,1,УЗ-4,.docx,Контроль доступа + аудит
+Прочее\Выписка из реестра ГА 06.05.01 06.05.02.pdf,"standard_dob: 3, standard_address: 3, state_passport: 1, state_inn: 1, payment_cvv: 2",10,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\ВыпискаТемы-ВКР-ИНоЗ_2025-выпуска.pdf,"standard_fio: 1, standard_address: 8, special_health: 3",12,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Договор.docx,"standard_fio: 1, standard_dob: 1, standard_address: 4, payment_cvv: 4, special_health: 1",11,УЗ-1,.docx,Шифрование + RBAC
+Прочее\Заявление.docx,"standard_address: 1, payment_cvv: 2",3,УЗ-2,.docx,Шифрование + RBAC
+Прочее\Индивидуальный план работы аспиранта для набора 2022 г. (5).docx,standard_address: 19,19,УЗ-4,.docx,Контроль доступа + аудит
+Прочее\Инструкция по работе с информационными ресурсами.doc,"standard_email: 3, payment_cvv: 100",103,УЗ-2,.doc,Шифрование + RBAC
+Прочее\Информация о результатах приема 2024.pdf,"standard_fio: 1, standard_address: 2, payment_cvv: 128, special_health: 3",134,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\коммерческое%20предложение.pdf,"standard_address: 1, payment_cvv: 77",78,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Координаты для связи с профильными структурными подразделениями_3.pdf,"standard_fio: 66, standard_phone: 37, standard_email: 66, standard_address: 39, state_snils: 4, payment_cvv: 112, special_health: 6",330,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Лицей ЮФУ_ВД_расписание_2024-2025.pdf,"standard_fio: 2, standard_address: 3, payment_cvv: 3",8,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Лицей ЮФУ_ПОЛОЖЕНИЕ о ВД.pdf,"standard_dob: 7, standard_address: 1, payment_cvv: 5, special_health: 1",14,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\П114-ОД.pdf,"standard_fio: 2, standard_address: 19, payment_cvv: 2, special_health: 4",27,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\П1149_21.05.2025.pdf,"standard_fio: 4, standard_phone: 6, standard_dob: 23, standard_address: 37, state_passport: 6, state_inn: 6, payment_account: 18, payment_cvv: 25",125,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\П122-ОД_изменения в ОС_28.04.2023.pdf,"standard_dob: 38, standard_address: 3, payment_cvv: 18, special_health: 1",60,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\П1352 О стоимости в 2022_23гг 2х и последующих курсов.pdf,"standard_fio: 1, standard_address: 2",3,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\П1438.pdf,"standard_fio: 1, standard_dob: 2, standard_address: 1, payment_cvv: 2",6,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\П156-ОД.pdf,"standard_dob: 17, standard_address: 1",18,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\П1888-2.pdf,"standard_fio: 1, standard_dob: 2, standard_address: 1, payment_cvv: 2",6,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\П216-ОД.pdf,standard_email: 2,2,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\П2274 АБИМ.pdf,"standard_dob: 5, standard_address: 1, payment_cvv: 2",8,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\П245-ОД Регламент проведения выборов заведующего кафедрой.pdf,standard_email: 2,2,УЗ-4,.pdf,Контроль доступа + аудит
+Прочее\П247.pdf,"standard_dob: 9, standard_address: 17, state_passport: 1, state_inn: 1, payment_cvv: 15",43,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\П47-ОД_10.03.2023.pdf,"standard_fio: 2, standard_address: 2, special_health: 1",5,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\П47-ОД_МИМДО_03.03.2022.pdf,"standard_fio: 2, standard_dob: 1, standard_address: 4, payment_cvv: 2, special_health: 2",11,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\П70-ОД_37.03.01 Психология.pdf,"payment_cvv: 4, special_health: 2",6,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\П71-ОД_37.04.01 Психология.pdf,"standard_dob: 2, payment_cvv: 3, special_health: 2",7,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\П72-ОД_37.05.01_Клиническая психология.pdf,"payment_cvv: 10, special_health: 3",13,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\П73-ОД_37.05.02_Психология служ деят.pdf,"standard_address: 1, payment_cvv: 7, special_health: 8",16,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\патентов и ПЭВМ - ЮФУ.pdf,"standard_fio: 1033, standard_dob: 842, standard_address: 92, state_passport: 691, state_snils: 1, state_inn: 691, payment_cvv: 883, special_health: 47",4280,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Перечень документов.docx,"standard_fio: 1, standard_phone: 2, standard_email: 1, standard_address: 2, payment_cvv: 5",11,УЗ-2,.docx,Шифрование + RBAC
+Прочее\План создания МИП.pdf,"standard_dob: 2, standard_address: 3, payment_cvv: 4",9,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Порядок проведения.docx,"standard_email: 1, standard_dob: 1, payment_cvv: 7",9,УЗ-2,.docx,Шифрование + RBAC
+Прочее\ПП_2025_19.01.2025_итог.pdf,"standard_fio: 50, standard_phone: 16, standard_email: 5, standard_dob: 4, standard_address: 15, payment_cvv: 192, special_health: 17",299,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\ПРАВИЛА%20ПОСЕЩЕНИЯ%20ООПТ%20ФЕДЕРАЛЬНОГО%20ЗНАЧЕНИЯ%20(2).pdf,"standard_dob: 3, payment_cvv: 1",4,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Приказ 391.pdf,"standard_fio: 2, payment_cvv: 3",5,УЗ-2,.pdf,Шифрование + RBAC
+"Прочее\Приказ ФСТЭК России от 03_05.2023 N 74  Об утверждении требований оформлению заявления о предоставлении лицензии, разрешения.docx","standard_fio: 18, standard_email: 2, standard_dob: 1, standard_address: 4, payment_cvv: 51",76,УЗ-2,.docx,Шифрование + RBAC
+Прочее\Приказ ФСТЭК России от 30.10.2018 N 193.docx,"standard_fio: 6, standard_dob: 10, standard_address: 11, payment_cvv: 32",59,УЗ-2,.docx,Шифрование + RBAC
+Прочее\Приказ ЮФУ от 04.06.2021 N 115-ОД.pdf,"standard_address: 1, payment_cvv: 5, special_health: 5",11,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Приказ ЮФУ от 07.02.2022  N 24-ОД.pdf,"standard_dob: 3, payment_cvv: 6, special_health: 5",14,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Программа VIII  научного семинара Лаборатории экспериментальной лингвистики АГУ  Клиническая лингвистика.docx,"standard_fio: 4, standard_address: 1, state_passport: 1, state_snils: 1, state_inn: 1, payment_cvv: 3",11,УЗ-2,.docx,Шифрование + RBAC
+Прочее\Р688.pdf,"standard_fio: 2, standard_phone: 1, standard_email: 1, standard_dob: 16, standard_address: 19, state_passport: 1, state_inn: 1, payment_account: 1, payment_cvv: 13, special_health: 1",56,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Ранжированные списки (по итогам апелляций).pdf,"standard_fio: 7, payment_cvv: 104",111,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Регламент 10-ОД.pdf,"standard_dob: 4, payment_cvv: 1",5,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Реестр экскурсоводов 2024_ 02.12.2024.pdf,"standard_fio: 3, standard_phone: 39, standard_email: 29, standard_dob: 35, standard_address: 47, state_passport: 1, state_snils: 29, state_inn: 1, payment_cvv: 15",199,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Реестровая выписка ГА 25.02.25_СПО.pdf,"standard_fio: 1, standard_dob: 12, standard_address: 13, state_passport: 1, state_inn: 1, payment_cvv: 64, special_health: 4",96,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Реестровая выписка л_22.08.25.pdf,"standard_fio: 94, standard_email: 2, standard_address: 99, state_passport: 1, state_inn: 1, payment_cvv: 206, special_health: 7",410,УЗ-1,.pdf,Шифрование + RBAC
+Прочее\Реестровая выписка_29.05.29025.pdf,"standard_dob: 3, standard_address: 3, state_passport: 1, state_inn: 1, payment_cvv: 2",10,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\режим%20работы%20и%20прейскурант-.pdf,"standard_address: 1, payment_cvv: 1",2,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\РУКОВОДСТВО_ПО_БРЕНДИНГУ_2025.pdf,"standard_fio: 3, standard_phone: 4, standard_email: 5, standard_address: 5, payment_cvv: 17",34,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\сайт_Наука_Микросистемная техника и интегральная сенсорика.pdf,"standard_email: 3, payment_cvv: 13",16,УЗ-2,.pdf,Шифрование + RBAC
+Прочее\Согласие законного представителя на заключение договора.docx,standard_address: 1,1,УЗ-4,.docx,Контроль доступа + аудит
+Прочее\Согласие законного представителя.docx,"standard_dob: 2, standard_address: 2, payment_cvv: 3",7,УЗ-2,.docx,Шифрование + RBAC
+Прочее\Согласие участника конкурса.docx,"standard_dob: 2, standard_address: 2, payment_cvv: 3",7,УЗ-2,.docx,Шифрование + RBAC
+Прочее\Согласие_ПДн_(map.ncpti.ru).rtf,"standard_phone: 18, standard_dob: 3, state_passport: 1, state_inn: 1, payment_account: 11, payment_cvv: 49",83,УЗ-2,.rtf,Шифрование + RBAC
+Прочее\السيرة الذاتية د. صبحي شرف عميد الكلية 13-3 - Copy.pdf,"standard_email: 1, state_passport: 2, state_inn: 2, payment_cvv: 5",10,УЗ-2,.pdf,Шифрование + RBAC
+Выгрузки\Логистика\customers.csv,"standard_fio: 3987, payment_cvv: 900",4887,УЗ-2,.csv,Шифрование + RBAC
+Выгрузки\Логистика\logistics.csv,"standard_address: 31031, payment_cvv: 38315",69346,УЗ-2,.csv,Шифрование + RBAC
+Выгрузки\Логистика\products.csv,payment_cvv: 741,741,УЗ-2,.csv,Шифрование + RBAC
+Выгрузки\Логистика\sales.csv,payment_cvv: 21989,21989,УЗ-2,.csv,Шифрование + RBAC
+Выгрузки\Логистика\stores.csv,payment_cvv: 1,1,УЗ-2,.csv,Шифрование + RBAC
+Выгрузки\Сайты\page_1.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_10.html,payment_cvv: 1,1,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_100.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_101.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_102.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_103.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_104.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_105.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_106.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_107.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_108.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_109.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_11.html,payment_cvv: 3,3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_110.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_111.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_112.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_113.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_114.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_115.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_116.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_117.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_118.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_119.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_12.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_120.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_121.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_122.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_123.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_127.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_129.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_135.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_137.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_138.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_14.html,payment_cvv: 3,3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_142.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_143.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_144.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_145.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_146.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_15.html,"standard_email: 1, payment_cvv: 6",7,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_158.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_159.html,"standard_fio: 5, payment_cvv: 2, special_health: 1",8,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_16.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_160.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_161.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_165.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_166.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_167.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_168.html,"standard_fio: 26, standard_address: 6, payment_cvv: 9",41,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_169.html,"standard_fio: 1, payment_cvv: 16",17,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_17.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_170.html,"standard_dob: 1, standard_address: 6, payment_cvv: 17",24,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_171.html,payment_cvv: 17,17,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_172.html,"standard_fio: 4, standard_address: 13, payment_cvv: 3, biometric: 1, special_health: 1",22,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_173.html,payment_cvv: 7,7,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_175.html,payment_cvv: 9,9,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_176.html,"standard_fio: 1, standard_address: 1, payment_cvv: 6",8,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_177.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_179.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_18.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_180.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_184.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_185.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_186.html,"standard_fio: 1, standard_address: 1, payment_cvv: 6",8,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_187.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_188.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_189.html,payment_cvv: 9,9,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_19.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_191.html,"standard_address: 1, payment_cvv: 10",11,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_192.html,"standard_address: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_193.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_194.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_195.html,"payment_cvv: 3, special_health: 1",4,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_196.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_197.html,"standard_fio: 6, standard_phone: 1, standard_address: 1, state_snils: 1, payment_cvv: 5",14,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_198.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_199.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_2.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_20.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_201.html,payment_cvv: 4,4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_202.html,special_health: 1,1,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_203.html,"standard_fio: 4, standard_address: 5, payment_cvv: 4",13,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_205.html,standard_fio: 2,2,УЗ-4,.html,Контроль доступа + аудит
+Выгрузки\Сайты\page_207.html,"standard_fio: 7, standard_address: 3, payment_cvv: 7",17,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_21.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_211.html,payment_cvv: 3,3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_213.html,"standard_address: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_214.html,standard_address: 1,1,УЗ-4,.html,Контроль доступа + аудит
+Выгрузки\Сайты\page_215.html,"standard_fio: 1, standard_address: 2, payment_cvv: 3",6,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_216.html,"payment_cvv: 4, biometric: 1",5,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_217.html,standard_fio: 1,1,УЗ-4,.html,Контроль доступа + аудит
+Выгрузки\Сайты\page_218.html,"standard_address: 1, payment_cvv: 1",2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_22.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_220.html,standard_fio: 1,1,УЗ-4,.html,Контроль доступа + аудит
+Выгрузки\Сайты\page_221.html,standard_fio: 1,1,УЗ-4,.html,Контроль доступа + аудит
+Выгрузки\Сайты\page_222.html,standard_fio: 2,2,УЗ-4,.html,Контроль доступа + аудит
+Выгрузки\Сайты\page_224.html,standard_fio: 1,1,УЗ-4,.html,Контроль доступа + аудит
+Выгрузки\Сайты\page_226.html,payment_cvv: 1,1,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_227.html,"standard_address: 1, payment_cvv: 9",10,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_228.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_229.html,payment_cvv: 3,3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_23.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_230.html,"standard_fio: 3, standard_address: 2, payment_cvv: 3",8,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_232.html,"standard_address: 1, payment_cvv: 1",2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_233.html,"standard_fio: 1, standard_address: 1, payment_cvv: 3",5,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_234.html,"standard_fio: 2, payment_cvv: 1",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_236.html,"standard_fio: 2, standard_address: 2, payment_cvv: 1",5,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_237.html,"standard_address: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_238.html,"standard_fio: 1, payment_cvv: 1",2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_239.html,"standard_address: 1, payment_cvv: 10",11,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_24.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_240.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_241.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_245.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_247.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_253.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_254.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_255.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_259.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_260.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_261.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_265.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_266.html,"standard_fio: 2, payment_cvv: 2",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_267.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_271.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_272.html,"standard_fio: 27, standard_address: 2, payment_cvv: 2, special_health: 1",32,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_273.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_277.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_278.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_279.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_28.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_280.html,"standard_fio: 2, payment_cvv: 3",5,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_281.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_282.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_283.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_284.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_285.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_286.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_287.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_288.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_289.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_29.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_290.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_291.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_292.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_293.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_294.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_295.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_296.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_297.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_298.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_299.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_3.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_30.html,"standard_fio: 2, payment_cvv: 2",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_300.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_301.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_302.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_303.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_304.html,"standard_fio: 1, payment_cvv: 3",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_305.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_306.html,"standard_fio: 2, payment_cvv: 2",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_307.html,"standard_fio: 2, payment_cvv: 2",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_308.html,"standard_fio: 1, payment_cvv: 3",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_309.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_31.html,"standard_fio: 1, payment_cvv: 3",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_310.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_311.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_312.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_313.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_314.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_315.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_316.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_317.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_318.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_319.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_32.html,"standard_fio: 1, payment_cvv: 3",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_320.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_321.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_322.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_323.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_324.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_325.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_326.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_327.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_328.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_329.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_33.html,"standard_fio: 1, payment_cvv: 3",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_330.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_331.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_332.html,"standard_fio: 1, payment_cvv: 3",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_333.html,"standard_fio: 1, payment_cvv: 3",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_334.html,"standard_fio: 2, payment_cvv: 2",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_335.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_336.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_337.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_338.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_339.html,"standard_fio: 1, payment_cvv: 3",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_34.html,"standard_fio: 2, payment_cvv: 2",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_340.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_341.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_342.html,"standard_fio: 1, payment_cvv: 3",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_343.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_344.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_345.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_346.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_347.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_348.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_349.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_35.html,"standard_fio: 2, payment_cvv: 2",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_350.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_351.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_352.html,"standard_fio: 2, payment_cvv: 2",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_353.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_354.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_355.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_356.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_357.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_358.html,"standard_fio: 1, payment_cvv: 3",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_359.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_36.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_360.html,"standard_fio: 1, payment_cvv: 3",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_361.html,"standard_fio: 1, payment_cvv: 3",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_362.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_363.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_364.html,"standard_fio: 1, payment_cvv: 3",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_365.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_366.html,"standard_fio: 1, payment_cvv: 3",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_367.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_368.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_369.html,"standard_fio: 1, payment_cvv: 3",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_37.html,"standard_fio: 2, payment_cvv: 2",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_370.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_371.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_372.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_373.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_374.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_375.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_376.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_377.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_378.html,"standard_fio: 1, payment_cvv: 3",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_379.html,"standard_fio: 2, payment_cvv: 3",5,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_38.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_380.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_381.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_382.html,"standard_fio: 1, payment_cvv: 3",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_383.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_384.html,"standard_fio: 1, payment_cvv: 3",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_385.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_386.html,"standard_fio: 1, payment_cvv: 3",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_387.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_388.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_389.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_39.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_390.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_391.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_392.html,"standard_fio: 2, payment_cvv: 3",5,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_393.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_394.html,"standard_fio: 28, standard_address: 2, payment_cvv: 2, special_health: 1",33,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_395.html,"standard_fio: 2, payment_cvv: 2",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_396.html,"standard_fio: 5, standard_address: 1, payment_cvv: 2, special_health: 1",9,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_397.html,special_health: 1,1,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_398.html,"standard_fio: 5, payment_cvv: 2, special_health: 1",8,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_399.html,standard_fio: 6,6,УЗ-4,.html,Контроль доступа + аудит
+Выгрузки\Сайты\page_4.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_40.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_400.html,"standard_fio: 6, standard_address: 2, payment_cvv: 2, special_health: 1",11,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_401.html,"standard_fio: 1, standard_address: 3, payment_cvv: 1",5,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_402.html,"standard_fio: 2, payment_cvv: 2",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_403.html,"standard_fio: 7, payment_cvv: 2, special_health: 1",10,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_404.html,"standard_address: 2, payment_cvv: 5",7,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_405.html,"standard_fio: 7, payment_cvv: 2, special_health: 1",10,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_406.html,"standard_fio: 49, standard_address: 1, payment_cvv: 4",54,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_407.html,"standard_fio: 6, standard_address: 1, payment_cvv: 2, special_health: 1",10,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_408.html,payment_cvv: 1,1,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_409.html,"standard_fio: 2, payment_cvv: 2",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_41.html,"standard_address: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_410.html,"standard_fio: 7, payment_cvv: 2, special_health: 1",10,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_411.html,"standard_fio: 7, standard_address: 2, payment_cvv: 8, special_health: 1",18,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_412.html,"standard_fio: 6, payment_cvv: 2, special_health: 1",9,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_413.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_414.html,"standard_fio: 6, standard_address: 4, payment_cvv: 2, special_health: 1",13,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_415.html,"standard_fio: 2, standard_address: 3, payment_cvv: 19, biometric: 1",25,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_416.html,"standard_fio: 7, standard_address: 1, payment_cvv: 2, special_health: 1",11,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_417.html,"standard_fio: 1, standard_address: 5, payment_cvv: 7",13,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_418.html,"standard_fio: 6, payment_cvv: 2, special_health: 2",10,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_419.html,standard_address: 2,2,УЗ-4,.html,Контроль доступа + аудит
+Выгрузки\Сайты\page_42.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_420.html,"standard_fio: 2, payment_cvv: 2",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_421.html,"standard_fio: 5, payment_cvv: 2, special_health: 1",8,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_422.html,"standard_fio: 29, standard_address: 2, payment_cvv: 10",41,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_423.html,"standard_fio: 7, payment_cvv: 2, special_health: 1",10,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_424.html,"standard_fio: 14, standard_address: 4, payment_cvv: 6",24,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_425.html,"standard_fio: 5, payment_cvv: 2, special_health: 1",8,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_426.html,"payment_cvv: 6, special_health: 2",8,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_427.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_428.html,"standard_fio: 7, standard_address: 2, payment_cvv: 2, special_health: 1",12,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_429.html,"standard_fio: 32, standard_address: 5",37,УЗ-4,.html,Контроль доступа + аудит
+Выгрузки\Сайты\page_430.html,"standard_fio: 6, standard_address: 17, payment_cvv: 13, special_health: 1",37,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_431.html,"standard_address: 17, payment_cvv: 11",28,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_432.html,"standard_fio: 7, standard_address: 2, payment_cvv: 3, special_health: 1",13,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_433.html,"standard_fio: 11, standard_address: 2, payment_cvv: 6",19,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_434.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_435.html,"standard_fio: 8, payment_cvv: 2, special_health: 1",11,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_436.html,"standard_fio: 1, standard_phone: 1, standard_email: 1, standard_address: 3, payment_cvv: 2, special_health: 1",9,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_437.html,"standard_fio: 7, standard_address: 1, payment_cvv: 4, special_health: 1",13,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_438.html,"standard_fio: 15, standard_address: 6, payment_cvv: 5, biometric: 1, special_religion: 1",28,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_439.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_44.html,"standard_fio: 3, standard_dob: 1, standard_address: 1, payment_cvv: 4",9,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_440.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_441.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_442.html,"standard_fio: 6, standard_address: 4, payment_cvv: 6, special_health: 20",36,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_443.html,"standard_fio: 1, payment_cvv: 2, special_health: 10",13,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_444.html,"standard_fio: 7, payment_cvv: 2, special_health: 1",10,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_445.html,"standard_fio: 2, standard_address: 8, payment_cvv: 3, special_health: 3",16,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_446.html,"standard_fio: 6, standard_address: 7, payment_cvv: 6, special_health: 1",20,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_447.html,payment_cvv: 5,5,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_448.html,"standard_fio: 2, payment_cvv: 2",4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_449.html,"standard_fio: 7, standard_address: 1, payment_cvv: 3, special_health: 1, special_religion: 1",13,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_45.html,payment_cvv: 4,4,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_450.html,"standard_fio: 3, standard_address: 8, payment_cvv: 16, biometric: 1, special_health: 4, special_religion: 1",33,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_451.html,"standard_fio: 7, standard_address: 3, payment_cvv: 3, special_health: 1",14,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_452.html,"standard_fio: 1, payment_cvv: 1, special_health: 1",3,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_453.html,"standard_fio: 12, standard_address: 2, payment_cvv: 11, special_health: 1",26,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_454.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_455.html,"standard_fio: 6, payment_cvv: 4, special_health: 1",11,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_456.html,"standard_fio: 9, standard_dob: 3, standard_address: 2, payment_cvv: 5",19,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_457.html,"standard_fio: 6, payment_cvv: 2, special_health: 1",9,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_458.html,"standard_fio: 2, standard_dob: 1, standard_address: 3, payment_cvv: 5",11,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_459.html,"standard_fio: 7, standard_address: 2, payment_cvv: 2, special_health: 1",12,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_46.html,"standard_fio: 10, standard_address: 3, payment_cvv: 7",20,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_460.html,"standard_fio: 1, standard_address: 11, special_health: 1",13,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_461.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_462.html,"standard_fio: 6, standard_address: 1, payment_cvv: 2, special_health: 1",10,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_463.html,"standard_fio: 208, standard_address: 4, payment_cvv: 1, special_health: 1",214,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_464.html,"standard_fio: 6, standard_address: 4, payment_cvv: 2, special_health: 1",13,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_465.html,"standard_fio: 1, standard_address: 5, payment_cvv: 2",8,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_466.html,"standard_fio: 7, standard_address: 4, payment_cvv: 2, special_health: 1",14,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_467.html,"standard_fio: 2, standard_address: 9, payment_cvv: 9",20,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_468.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_469.html,"standard_fio: 9, standard_address: 3, payment_cvv: 4, special_health: 2",18,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_470.html,"standard_fio: 4, standard_address: 1",5,УЗ-4,.html,Контроль доступа + аудит
+Выгрузки\Сайты\page_471.html,"standard_fio: 6, payment_cvv: 4, special_health: 1",11,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_472.html,"standard_fio: 6, standard_address: 5, payment_cvv: 17",28,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_473.html,"standard_fio: 6, standard_address: 2, payment_cvv: 9, special_health: 1",18,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_474.html,"standard_fio: 3, standard_address: 12, payment_cvv: 20, special_health: 10",45,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_475.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_476.html,"standard_fio: 7, standard_address: 3, payment_cvv: 2, special_health: 1",13,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_477.html,"standard_fio: 1, standard_address: 6",7,УЗ-4,.html,Контроль доступа + аудит
+Выгрузки\Сайты\page_478.html,"standard_fio: 6, standard_address: 1, payment_cvv: 2, special_health: 1",10,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_479.html,"standard_fio: 3, standard_address: 6, payment_cvv: 10, special_health: 1",20,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_48.html,"standard_address: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_480.html,"standard_fio: 7, standard_address: 5, payment_cvv: 3, special_health: 1",16,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_481.html,"standard_fio: 1, standard_address: 13, special_health: 2",16,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_482.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_483.html,"standard_fio: 6, standard_address: 1, payment_cvv: 2, special_health: 1",10,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_484.html,standard_address: 1,1,УЗ-4,.html,Контроль доступа + аудит
+Выгрузки\Сайты\page_485.html,"standard_fio: 5, standard_address: 1, payment_cvv: 2, special_health: 1",9,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_486.html,"standard_fio: 11, standard_dob: 4, standard_address: 4, payment_cvv: 3, special_health: 1",23,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_49.html,"standard_address: 4, payment_cvv: 6",10,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_5.html,payment_cvv: 3,3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_50.html,"standard_email: 5, payment_cvv: 2",7,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_51.html,"standard_fio: 4, payment_cvv: 6",10,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_52.html,"standard_address: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_53.html,"standard_email: 1, standard_address: 3, payment_cvv: 5",9,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_54.html,"standard_fio: 3, standard_address: 5, payment_cvv: 4",12,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_55.html,"standard_fio: 3, standard_address: 4, payment_cvv: 1, biometric: 1",9,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_56.html,"standard_dob: 1, payment_cvv: 4",5,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_57.html,"standard_email: 1, standard_dob: 1, payment_cvv: 2, special_health: 2",6,УЗ-1,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_58.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_59.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_6.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_63.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_65.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_69.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_70.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_72.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_77.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_78.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_82.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_83.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_84.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_85.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_86.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_89.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_90.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_94.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_95.html,"standard_fio: 1, payment_cvv: 2",3,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\page_96.html,payment_cvv: 2,2,УЗ-2,.html,Шифрование + RBAC
+Выгрузки\Сайты\Доки\20240306_fin_result_2023.pdf,"standard_address: 46, state_snils: 24, payment_cvv: 1100, special_health: 1",1171,УЗ-1,.pdf,Шифрование + RBAC
+Выгрузки\Сайты\Доки\COMPS-1071.pdf,payment_cvv: 2480,2480,УЗ-2,.pdf,Шифрование + RBAC
+Выгрузки\Сайты\Доки\FCC-12-9A1.pdf,"standard_email: 2, state_passport: 2, state_inn: 2, payment_cvv: 1281",1287,УЗ-2,.pdf,Шифрование + RBAC
+Выгрузки\Сайты\Доки\GlobalCriticalMineralsOutlook2024.pdf,"state_passport: 1, state_snils: 5, state_inn: 9, payment_cvv: 1300",1315,УЗ-2,.pdf,Шифрование + RBAC
+Выгрузки\Сайты\Доки\HEAD%204q2024%20release%20050324.pdf,"standard_phone: 2, standard_address: 35, state_snils: 6, payment_cvv: 949, special_health: 1",993,УЗ-1,.pdf,Шифрование + RBAC
+Выгрузки\Сайты\Доки\mcs2025-rare-earths.pdf,"standard_email: 1, state_snils: 1, payment_cvv: 124",126,УЗ-2,.pdf,Шифрование + RBAC
+Выгрузки\Сайты\Доки\Paulzovatelskoe_soglashenie_PAOSPB.pdf,"standard_email: 1, standard_dob: 1, payment_cvv: 4",6,УЗ-2,.pdf,Шифрование + RBAC
+Выгрузки\Сайты\Доки\preprint-frn-2023-critical-materials-list.pdf,"standard_email: 1, payment_cvv: 5",6,УЗ-2,.pdf,Шифрование + RBAC
+Выгрузки\Сайты\Доки\price-list.pdf,"standard_fio: 1, standard_phone: 1, standard_email: 1, standard_dob: 1, payment_cvv: 10",14,УЗ-2,.pdf,Шифрование + RBAC
+Выгрузки\Сайты\Доки\pril1_14112652.pdf,"standard_fio: 3, standard_address: 1",4,УЗ-4,.pdf,Контроль доступа + аудит
+Выгрузки\Сайты\Доки\Privacy_policy_upd.pdf,"standard_fio: 2, standard_email: 1, standard_dob: 1, standard_address: 9, state_passport: 3, state_inn: 3, payment_cvv: 1",20,УЗ-2,.pdf,Шифрование + RBAC
+Выгрузки\Сайты\Доки\rbc.pdf,"standard_fio: 3, standard_email: 1, standard_dob: 4, payment_cvv: 11",19,УЗ-2,.pdf,Шифрование + RBAC
+Выгрузки\Сайты\Доки\subscribe_rules.pdf,standard_email: 1,1,УЗ-4,.pdf,Контроль доступа + аудит
+Выгрузки\Сайты\Доки\Terms_of_service_upd.pdf,"standard_fio: 3, standard_email: 2, standard_dob: 1, standard_address: 7, state_passport: 2, state_inn: 2, payment_cvv: 1, special_health: 2",20,УЗ-1,.pdf,Шифрование + RBAC
+Выгрузки\дочерние предприятия\Billing\plan.json,payment_cvv: 4,4,УЗ-2,.json,Шифрование + RBAC
+Выгрузки\дочерние предприятия\Billing\subscribers.csv,"standard_phone: 402, state_inn: 358",760,УЗ-2,.csv,Шифрование + RBAC
+Выгрузки\дочерние предприятия\Billing\full\customers.csv,"standard_fio: 3987, payment_cvv: 900",4887,УЗ-2,.csv,Шифрование + RBAC
+Выгрузки\дочерние предприятия\Billing\full\logistics.csv,"standard_address: 31031, payment_cvv: 38315",69346,УЗ-2,.csv,Шифрование + RBAC
+Выгрузки\дочерние предприятия\Billing\full\products.csv,payment_cvv: 741,741,УЗ-2,.csv,Шифрование + RBAC
+Выгрузки\дочерние предприятия\Billing\full\sales.csv,payment_cvv: 21989,21989,УЗ-2,.csv,Шифрование + RBAC
+Выгрузки\дочерние предприятия\Billing\full\stores.csv,payment_cvv: 1,1,УЗ-2,.csv,Шифрование + RBAC
