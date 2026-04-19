@@ -6,3 +6,5 @@ lxml
 pytesseract
 Pillow
 openpyxl
+olefile
+cv2
