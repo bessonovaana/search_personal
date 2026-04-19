@@ -29,24 +29,24 @@ MAX_FILE_SIZE_MB = 500
 MAX_PDF_PAGES = 50
 
 PD_PATTERNS = {
-    "standard_fio": re.compile(r'\b[А-ЯЁ][а-яё]{1,30}\s+[А-ЯЁ][а-яё]{1,30}\s+[А-ЯЁ][а-яё]{1,30}\b', re.IGNORECASE),
-    "standard_phone": re.compile(r'(?:\+7|8)[\s\-]?\(?\d{3}\)?[\s\-]?\d{3}[\s\-]?\d{2}[\s\-]?\d{2}', re.IGNORECASE),
+    "standard_fio": re.compile(r'\b[А-ЯЁ][а-яё]{1,25}\s+[А-ЯЁ][а-яё]{1,25}\s+[А-ЯЁ][а-яё]{1,25}\b'),
+    "standard_phone": re.compile(r'(?:\+7|8)[\s\-]?\(?\d{3}\)?[\s\-]?\d{3}[\s\-]?\d{2}[\s\-]?\d{2}'),
     "standard_email": re.compile(r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'),
     "standard_dob": re.compile(r'\b(?:0[1-9]|[12][0-9]|3[01])[./-](?:0[1-9]|1[0-2])[./-](?:19|20)\d{2}\b'),
-    "standard_address": re.compile(r'(?:г\.|город|ул\.|улица|пр\.|проспект|д\.|дом|кв\.|квартира)\s+[А-ЯЁа-яё0-9\s\.\-\,]+', re.IGNORECASE),
+    "standard_address": re.compile(r'(?:г\.?|город|ул\.?|улица|пр\.?|проспект|д\.?|дом|кв\.?|квартира)\b\s*[А-ЯЁа-яё0-9\s\.,\-]{5,}'),
     "state_passport": re.compile(r'\b\d{4}\s?\d{6}\b'),
     "state_snils": re.compile(r'\b\d{3}[\s\-]?\d{3}[\s\-]?\d{3}[\s\-]?\d{2}\b'),
     "state_inn": re.compile(r'\b\d{10}\b|\b\d{12}\b'),
-    "state_driver_license": re.compile(r'\b\d{2}\s?[A-ZА-ЯЁ]{2}\s?\d{6}\b', re.IGNORECASE),
+    "state_driver_license": re.compile(r'\b\d{2}\s?[А-ЯЁ]{2}\s?\d{6}\b'),
     "state_mrz": re.compile(r'P<.+?\n.+?<<', re.MULTILINE),
     "payment_card": re.compile(r'\b\d{16}\b'),
     "payment_account": re.compile(r'\b\d{20}\b'),
     "payment_bik": re.compile(r'\b04\d{7}\b'),
-    "payment_cvv": re.compile(r'\b\d{3}\b'),
+    "payment_cvv": re.compile(r'(?:CVV|CVC)\s*[:\-]?\s*\d{3}'),
     "biometric": re.compile(r'(?:отпечаток|палец|радужная оболочка|сетчатка|голосовой образ|биометрия|распознавание лица|скан лица)', re.IGNORECASE),
     "special_health": re.compile(r'(?:диагноз|заболевание|анализ|рентген|мрт|группа крови|инвалидность|справка|история болезни)', re.IGNORECASE),
-    "special_religion": re.compile(r'(?:вероисповедание|религиозные убеждения|церковь|мечеть|синагога|конфессия|прихожанин)', re.IGNORECASE),
-    "special_race": re.compile(r'(?:национальность|расовая принадлежность|этническое происхождение|коренной|диаспора)', re.IGNORECASE),
+    "special_religion": re.compile(r'(?:вероисповедание|религиозные убеждения|церковь|мечеть|синагога|конфессия)', re.IGNORECASE),
+    "special_race": re.compile(r'(?:национальность|расовая принадлежность|этническое происхождение|коренной)', re.IGNORECASE),
 }
 
 CATEGORY_GROUPS = {
@@ -68,16 +68,19 @@ def snils_check(snils: str) -> bool:
     nums = [int(d) for d in snils if d.isdigit()]
     if len(nums) != 11: return False
     total = sum(nums[i] * (9 - i) for i in range(9))
-    ctrl = nums[-1] * 10 + nums[-2]
-    if ctrl == 100: ctrl = 0
-    return total % 101 == ctrl
+    check_sum = nums[9] * 10 + nums[10]
+    if total < 100:
+        return total == check_sum
+    elif total == 100 or total == 101:
+        return check_sum == 0
+    else:
+        return total % 101 == check_sum
 
 def extract_text_fast(file_path: Path) -> str:
     ext = file_path.suffix.lower()
     size_mb = file_path.stat().st_size / (1024**2)
     if size_mb > MAX_FILE_SIZE_MB:
-        return f"[ПРОПУСК] Файл >{MAX_FILE_SIZE_MB} МБ"
-
+        return ""
     try:
         if ext == ".csv":
             return pd.read_csv(file_path, nrows=10000 if size_mb > 10 else None).to_string(index=False, header=False)
@@ -97,14 +100,14 @@ def extract_text_fast(file_path: Path) -> str:
             return "\n".join(p.text for p in doc.paragraphs if p.text.strip())[:500000]
         elif ext == ".doc":
             try:
-                res = subprocess.run(["antiword", "-m UTF-8", str(file_path)], capture_output=True, text=True, timeout=15)
+                res = subprocess.run(["antiword", "-m", "UTF-8", str(file_path)], capture_output=True, text=True, timeout=15)
                 if res.returncode == 0: return res.stdout[:500000]
             except Exception: pass
             try:
                 ole = olefile.OleFileIO(file_path)
                 text = ole.openstream("WordDocument").read().decode("utf-16-le", errors="ignore")
                 return text[:500000]
-            except Exception as e: return f"[ОШИБКА .DOC] {e}"
+            except Exception: return ""
         elif ext == ".rtf":
             with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
                 return rtf_to_text(f.read())[:500000]
@@ -121,20 +124,19 @@ def extract_text_fast(file_path: Path) -> str:
         elif ext == ".mp4":
             with tempfile.NamedTemporaryFile(suffix=".jpg", delete=False) as tmp:
                 try:
-                    subprocess.run(["ffmpeg", "-ss", "00:00:01", "-i", str(file_path), "-frames:v", "1", "-q:v", "2", tmp.name], 
+                    subprocess.run(["ffmpeg", "-ss", "00:00:01", "-i", str(file_path), "-frames:v", "1", "-q:v", "2", tmp.name],
                                    stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=30)
                     if os.path.getsize(tmp.name) > 0:
                         return pytesseract.image_to_string(Image.open(tmp.name), config='--psm 6 -l rus+eng --oem 3')
-                except Exception:
-                    return "[ВИДЕО] Пропущено: требуется ffmpeg"
+                except Exception: return ""
                 finally:
                     if os.path.exists(tmp.name): os.unlink(tmp.name)
             return ""
         else:
             with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
                 return f.read()[:500000]
-    except Exception as e:
-        return f"[ОШИБКА] {str(e)}"
+    except Exception:
+        return ""
 
 def detect_pd(text: str) -> Dict[str, int]:
     if not text or len(text) < 10: return {}
@@ -163,14 +165,7 @@ def classify_uz(categories: Dict[str, int], threshold: int) -> str:
     if (has_state and state_total <= threshold) or (has_standard and standard_total > threshold): return "УЗ-3"
     return "УЗ-4"
 
-def get_dataset_name(file_path: Path, root_dir: Path) -> str:
-    try:
-        rel = file_path.relative_to(root_dir)
-        return rel.parts[0] if rel.parts else "unknown"
-    except ValueError:
-        return "unknown"
-
-def process_file(file_path: Path, threshold: int, root_dir: Path) -> Optional[Dict]:
+def process_file(file_path: Path, threshold: int) -> Optional[Dict]:
     if not file_path.is_file() or file_path.suffix.lower() not in SUPPORTED_EXTENSIONS:
         return None
     try:
@@ -182,9 +177,8 @@ def process_file(file_path: Path, threshold: int, root_dir: Path) -> Optional[Di
     except Exception:
         size, time_str, name = 0, "unknown", file_path.name
 
-    dataset_name = get_dataset_name(file_path, root_dir)
     text = extract_text_fast(file_path)
-    if not text or text.startswith("[ПРОПУСК]") or text.startswith("[ОШИБКА]"):
+    if not text:
         return {"meta": {"size": size, "time": time_str, "name": name}, "pd": None}
 
     categories = detect_pd(text)
@@ -193,9 +187,7 @@ def process_file(file_path: Path, threshold: int, root_dir: Path) -> Optional[Di
 
     gc.collect()
     pd_info = {
-        "file_name": file_path.name,
-        "path": str(file_path.relative_to(root_dir)),
-        "dataset": dataset_name,
+        "path": str(file_path),
         "categories": {k: v for k, v in categories.items() if v > 0},
         "uz": classify_uz(categories, threshold),
         "ext": file_path.suffix.lower(),
@@ -203,57 +195,29 @@ def process_file(file_path: Path, threshold: int, root_dir: Path) -> Optional[Di
     }
     return {"meta": {"size": size, "time": time_str, "name": name}, "pd": pd_info}
 
-def generate_report(results: List[Dict], fmt: str, out_path: Path):
-    if not results:
-        logging.warning("Файлы с ПДн не найдены.")
-        return
-
-    grouped = defaultdict(list)
-    for r in results:
-        grouped[r["dataset"]].append(r)
-
-    if fmt == "csv":
-        with open(out_path, "w", encoding="utf-8", newline="") as f:
-            w = csv.writer(f)
-            w.writerow(["file_name", "path", "categories", "count", "uz", "format", "recommendation"])
-            for ds_name, items in sorted(grouped.items()):
-                for r in items:
-                    cats = ", ".join([f"{k}: {v}" for k, v in r["categories"].items()])
-                    rec = "AES-256 + RBAC + Аудит" if r["uz"] in ["УЗ-1", "УЗ-2"] else "Контроль доступа + Сверка"
-                    w.writerow([r["file_name"], r["path"], cats, r["total_pd"], r["uz"], r["ext"], rec])
-    elif fmt == "json":
-        output = {ds: items for ds, items in sorted(grouped.items())}
-        with open(out_path, "w", encoding="utf-8") as f:
-            json.dump(output, f, ensure_ascii=False, indent=2)
-    elif fmt == "md":
-        with open(out_path, "w", encoding="utf-8") as f:
-            f.write("# Отчёт по обнаружению ПДн (152-ФЗ)\n\n")
-            for ds_name, items in sorted(grouped.items()):
-                f.write(f"## Датасет: {ds_name}\n\n")
-                f.write("| Файл | Путь | Категории | Кол-во | УЗ | Формат | Рекомендации |\n|---|---|---|---|---|---|---|\n")
-                for r in items:
-                    cats = ", ".join([f"`{k}`({v})" for k, v in r["categories"].items()])
-                    rec = "Высокий уровень" if r["uz"] in ["УЗ-1", "УЗ-2"] else "Базовый"
-                    f.write(f"| `{r['file_name']}` | `{r['path']}` | {cats} | {r['total_pd']} | {r['uz']} | {r['ext']} | {rec} |\n")
-                f.write("\n")
-    logging.info(f"Отчёт сохранён: {out_path}")
-
 def write_result_csv(metas: List[Dict], out_path: Path):
     with open(out_path, "w", encoding="utf-8", newline="") as f:
         w = csv.writer(f)
         w.writerow(["size", "time", "name"])
-        for m in metas:
+        for m in sorted(metas, key=lambda x: x["name"]):
             w.writerow([m["size"], m["time"], m["name"]])
-    logging.info(f"Метаданные сохранены: {out_path}")
+
+def write_report_csv(results_pd: List[Dict], out_path: Path):
+    with open(out_path, "w", encoding="utf-8", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["Путь", "Категории", "Кол-во", "УЗ", "Формат", "Рекомендации"])
+        for r in sorted(results_pd, key=lambda x: x["path"]):
+            cats = ", ".join([f"{k}: {v}" for k, v in r["categories"].items()])
+            rec = "AES-256 + RBAC + Аудит" if r["uz"] in ["УЗ-1", "УЗ-2"] else "Контроль доступа + Сверка"
+            w.writerow([r["path"], cats, r["total_pd"], r["uz"], r["ext"], rec])
 
 def main():
-    parser = argparse.ArgumentParser(description="Быстрый сканер ПДн (152-ФЗ)")
-    parser.add_argument("input_dir", type=Path, help="Путь к директории с датасетами")
-    parser.add_argument("-o", "--output", type=Path, default="pd_report.csv", help="Файл отчёта ПДн")
-    parser.add_argument("-r", "--result", type=Path, default="result.csv", help="Файл метаданных файлов")
-    parser.add_argument("-f", "--format", choices=["csv", "json", "md"], default="csv", help="Формат отчёта ПДн")
+    parser = argparse.ArgumentParser(description="Сканер ПДн (152-ФЗ)")
+    parser.add_argument("input_dir", type=Path, default="ПДнDataset/share", help="Путь к директории")
+    parser.add_argument("-o", "--report", type=Path, default="report.csv", help="Файл отчета ПДн")
+    parser.add_argument("-r", "--result", type=Path, default="result.csv", help="Файл метаданных")
     parser.add_argument("-t", "--threshold", type=int, default=100, help="Порог большого объёма")
-    parser.add_argument("-w", "--workers", type=int, default=0, help="Число процессов (0 = авто)")
+    parser.add_argument("-w", "--workers", type=int, default=8, help="Число процессов")
     args = parser.parse_args()
 
     workers = args.workers if args.workers > 0 else min(8, os.cpu_count())
@@ -265,7 +229,7 @@ def main():
     processed = 0
 
     with ProcessPoolExecutor(max_workers=workers) as executor:
-        futures = {executor.submit(process_file, f, args.threshold, args.input_dir): f for f in files}
+        futures = {executor.submit(process_file, f, args.threshold): f for f in files}
         for future in as_completed(futures):
             try:
                 res = future.result(timeout=60)
@@ -276,11 +240,11 @@ def main():
                 processed += 1
                 if processed % 50 == 0:
                     logging.info(f"Обработано: {processed}/{len(files)}")
-            except Exception as e:
-                logging.debug(f"Ошибка обработки: {e}")
+            except Exception:
+                pass
 
     write_result_csv(metas, args.result)
-    generate_report(results_pd, args.format, args.output)
+    write_report_csv(results_pd, args.report)
     logging.info(f"Найдено файлов с ПДн: {len(results_pd)} / {len(files)}")
 
 if __name__ == "__main__":
